@@ -1,0 +1,33 @@
+\documentclass{article}
+\input{../Befehle}
+
+\begin{document}
+\section{Theorie}
+Das Rastertunnelmikroskop (RTM) ist ein Instrument mit der man die Oberfläche von Materialien auf atomarer Ebene untersuchen kann. Es basiert auf dem quantenmechanischen Tunneleffekt, bei dem Elektronen durch eine Barriere tunneln können, die sie klassisch nicht überwinden könnten. Genau lässt sich also mit einem RTM die Elektronendichte des Materials bestimmen. 
+Ein anschauliches Bild, aber ein falsches, da die Bandstruktur unberücksichtigt bleibt Bild ist in (???) dargestellt. 
+Nachdem die Schrödingergleichung gelöst wurde lässt sich zeigen, dass die Tunnelwahrscheinlichkeit exponentiell mit dem Abstand abfällt. 
+\[
+I \propto \exp(-2\kappa d) \quad \text{mit} \quad \kappa = \frac{\sqrt{2m(V_0-E)}}{\hbar} 
+\]
+Diese Gleichung bleibt auch in der richtigen Beschreibung mit Berücksichtigung der Bandstrukturen richtig, allerdings ist $V_0$ nicht mehr die Höhe der Potentialbarriere, sondern die effektive Barrierehöhe, die von der Bandstruktur der Materialien abhängt.
+Bei Raumtemperatur befinden sich die Spitze und die untersuchten Materialien (Au(111) und HOPG) im Tieftemperaturgrenzfall. Das heißt $E_F \approx \mu$. Bis zum Ferminiveau sind alle Zustände besetzt. Durch anlegen einer Spannung zwischen Probe und Spitze ändert sich das Ferminiveau relativ zueinander und Elektronen können von der Probe zur Spitze (oder umgekehrt Tunneln) vgl. Abb (???) 
+Die richige Berechnung des Tunnelstroms erfordert die Berücksichtigung der Bandstrukturen von Spitze und Probe. Es lässt sich zeigen, dass der Tunnelstrom proportional zum Integral über die Produkt der Zustandsdichten von Spitze und Probe ist, gewichtet mit der Fermi-Dirac-Verteilung. \ref{} 
+
+\begin{equation}
+    I \propto \int_{-\infty}^{\infty} \rho^{\text{S}}(E) \rho^{\text{P}}(E) f(E - E_F) dE \drueber{f(E-E_F) \approx \Theta(eU)}{\approx} \int_{0}^{eU}\rho^{\text{S}}(E_F) \rho^{\text{P}}(E_F)
+\end{equation}
+Nimmt man zusätzlich an, dass die Zustandsdichte der Spitze und Probe konstant ist, so ergibt sich, mit Berücksichtigung der Exponentialfunktion für die Tunnelwahrscheinlichkeit, die folgende Beziehung für den Tunnelstrom:
+\begin{equation}
+    I \propto U \rho^{\text{P}}(E_F) \rho^{\text{S}}(E_F) \exp(-2\kappa d) \propto U \exp(-2\kappa d)
+\end{equation}
+Der Tunnelstrom reagiert also empfindlich auf Änderungen des Abstands zwischen Spitze und Probe. Das RTM nutzt diese Eigenschaft, um die Oberfläche der Probe abzutasten. 
+Indem die Spitze über die Oberfläche bewegt wird und der Tunnelstrom konstant gehalten wird, kann die Topographie der Probe über die Auslenkung der Spitze rekonstruiert werden.
+Die Spitze wird mithilfe von drei Piezokristallen bewegt, die in X-, Y- und Z-Richtung angeordnet sind vgl. Abb (???). Durch Anlegen von Spannungen an diese Piezokristalle können sie sich ausdehnen oder zusammenziehen, was eine Bewegung der Spitze mit einer Auflösung von einigen Nanometern ermöglicht.
+Gesteuert wird die Bewegung der Spitze durch einen Regelkreis, der die Spannung an den Piezokristallen anpasst, um den Tunnelstrom konstant zu halten. 
+Welche Spannung an die Piezokristalle geschalten wird ($Y(t)$), hängt vom Tunnelstroms ($I(t)$) ab und wird durch den P,I und D-Anteil des Regelkreises bestimmt.\\
+Hierbei ist $E(t) = I(t) - I_0$ die Abweichung des Tunnelstroms von einem Sollwert $I_0$.
+\[
+Y(t) = \underbrace{gE(t)}_{\text{P-Anteil}} + \underbrace{\frac{h}{T_I} \int_{t - T_I}^{t} E(\tau)\, d\tau}_{\text{I-Anteil}} + \underbrace{j T_D \frac{dE(t)}{dt}}_{\text{D-Anteil}}
+\]
+Die Messung des Tunnelstroms erfolgt über einen Vorverstärker, der das Signal verstärkt, bevor es an die Elektronik weitergeleitet wird, die die Daten verarbeitet und die Topographie der Probe rekonstruiert.
+\end{document}
