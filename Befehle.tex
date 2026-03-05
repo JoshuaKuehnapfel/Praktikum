@@ -1,0 +1,25 @@
+
+\RequirePackage{amsmath, amssymb}
+
+
+\newcommand{\ddiff}[2]{\frac{d#1}{d#2}}
+\newcommand{\diff}[2]{\frac{#1}{#2}}
+\newcommand{\vectdiff}[2]{\frac{\vec{#1}}{#2}}
+\newcommand{\partdiff}[2]{\frac{\partial #1}{\partial #2}}
+
+\newcommand{\zvec}[3]{
+    \begin{pmatrix}
+        #1\\#2\\#3    
+    \end{pmatrix}
+    }
+\newcommand{\svec}[3]{
+    \left( \begin{matrix}
+        #1 & #2 & #3    
+    \end{matrix}\right)
+    }
+
+    
+\newcommand{\drueber}[2]{\stackrel{\substack{\ensuremath{#1} \vspace{0.1cm} \\ \displaystyle \downarrow\\ }}{ \ensuremath{#2}} }
+
+
+
