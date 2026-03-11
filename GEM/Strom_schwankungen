@@ -1,0 +1,113 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from sympy import Ge, plot
+from uncertainties import ufloat
+from scipy.optimize import curve_fit
+import scipy.constants as const
+import os
+
+
+plt.rcParams['font.size'] = 14.0
+plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['font.sans-serif'] = 'Arial'
+plt.rcParams['font.weight'] = 'bold'
+plt.rcParams['axes.labelsize'] = 'medium'
+plt.rcParams['axes.labelweight'] = 'bold'
+plt.rcParams['axes.linewidth'] = 1.2
+plt.rcParams['lines.linewidth'] = 2.0
+
+N = ufloat(322, 2.8)
+e = const.e
+
+U_R = np.array([3100, 3400, 3300, 3200, 3350, 3000, 3250, 3375, 3325])
+U0 = np.array([2900, 3000, 3100, 3200, 3300, 3350, 3400])
+U_80_20 = np.array([2800, 2880, 2960, 3040, 3120, 3210, 3300])
+U_60_40 = np.array([2900, 3000, 3100, 3200, 3300, 3400, 3450, 3500])
+U_G1T = np.array([2576, 2579, 2582, 2585, 2588, 2592, 2596])
+R_an = np.array([2207, 14639, 13502, 7456, 14360, 2, 12109, 14294, 13801])
+R_aus = np.array([3, 39, 20, 5, 30, 0, 1, 23, 19])
+
+R = R_an - R_aus
+R_uns = np.sqrt(R_an + R_aus)/60
+sort_indices = np.argsort(U_R)
+R = R[sort_indices]/60
+R_uns = R_uns[sort_indices]
+U_R = U_R[sort_indices]
+Rate = np.average(R[6:], weights = 1/R_uns[6:]**2,axis=0)
+Rate_uns = np.sqrt(1/np.sum(1/R_uns[6:]**2))
+
+R = ufloat(Rate, Rate_uns)
+os.chdir('C:/VS_Studio_Latex/Uni (lLokale Kopie)/Praktikum/GEM')
+
+Daten_namen = ['V_Drift', 'V_Drift_80_20', 'V_Drift_60_40']
+
+# for daten in Daten_namen:
+#     Strom, Strom_err = np.loadtxt(f'Daten/{daten}.csv', delimiter=',',  unpack=True, usecols=(1,2))
+#     relativer_fehler = Strom_err/Strom
+#     print(f'Relativer Fehler für {daten}: ({np.mean(relativer_fehler)*100:.2e} ± {np.std(relativer_fehler, ddof = 1)*100:.2e})%')
+
+Gem1Bot = 3350*0.641
+
+Strom, Strom_err = np.loadtxt(f'Daten/V_G1T.csv', delimiter=',',  unpack=True, usecols=(1,2))
+I = Strom[::2]
+I_err = Strom_err[::2]
+I_aus = Strom[1::2]
+I_aus_err = Strom_err[1::2]
+Gain = np.zeros(len(I))
+Gain_uns = np.zeros(len(I))
+for i in range(len(I)):
+    I_temp = ufloat(I[i], I_err[i])
+    I_temp_aus = ufloat(I_aus[i], I_aus_err[i])
+    G = np.abs((I_temp-I_temp_aus)/(e*Rate*N))
+    Gain[i] = G.n
+    Gain_uns[i] = G.s
+fig, ax = plt.subplots(3, 1, figsize=(10, 12), sharex=True, gridspec_kw={'height_ratios': [2, 1, 1]})
+plt.sca(ax[0])
+def exp_fit (x, a, b):
+    return a * np.exp(b * x)
+U = U_G1T-Gem1Bot
+c = 'maroon'
+popt, pcov = curve_fit(exp_fit, U, Gain, sigma=Gain_uns, absolute_sigma=True, p0 = [1e-13, 1e-3], bounds=[(0, 0), (1, 1)], maxfev=10000)
+x = np.linspace(min(U)-2, max(U)+2, 300)
+sa2 = pcov[0,0]
+sb2 = pcov[1,1]
+sab = pcov[0,1]
+a = popt[0]
+b = popt[1]
+y = exp_fit(x, *popt)
+sigma = np.sqrt(
+    np.exp(2*b*x)*sa2
+    + (a*x*np.exp(b*x))**2 * sb2
+    + 2*np.exp(b*x)*(a*x*np.exp(b*x))*sab
+)
+plt.plot(x, y)
+plt.fill_between(x, y-sigma, y+sigma, alpha=0.3, color=c, label='1σ Unsicherheitsbereich')
+plt.plot(x, y, label='Exponentielle Anpassung', color='darkred')
+plt.title(r'Gain als Funktion von V_{Drift} bei 70/30 (Ar/CO2)')
+
+plt.errorbar(U_G1T-Gem1Bot, Gain, yerr=Gain_uns, fmt='o', label='Messwerte', color = 'black')
+plt.title(r'Gain als Funktion von $V_{G1T}$')
+plt.yscale('log')
+plt.yticks([1e4, 3e4, 5e4, 1e5,3e5], [r'$10^4$',r'$3\cdot10^4$', r'$5\cdot10^4$', r'$10^5$',r'$3\cdot10^5$'])
+plt.ylabel('Gain ')
+plt.legend()
+plt.grid(True)
+
+ax[1].scatter(U, -I_err/I*100, label='Rel. Fehler Strom (Quelle an)', color = 'maroon')
+ax[1].set_label('Strom I [A]')
+ax[1].set_ylabel('Rel. Fehler I [%]')
+ax[2].set_xlabel(r'Spannung $V_{Drift}$ [V]')
+ax[2].scatter(U, -I_aus_err/I_aus*100, label='Rel. Fehler Strom (Quelle aus)', color = 'maroon')
+ax[2].set_ylabel(r'Rel. Fehler $I_{aus}$ [%]')
+for a in ax:
+    a.legend(loc = 'upper left')
+    a.grid(True)
+
+plt.savefig('Bilder/Verstärkung_G1T.svg', dpi=300)
+
+
+print(f'Fit-Parameter für V_G1T: a = {popt[0]:.2e} ± {np.sqrt(pcov[0,0]):.2e}, b = {popt[1]:.2e} ± {np.sqrt(pcov[1,1]):.2e}')
+print(f'relative Fehler Strommessung: {np.mean(-Strom_err/Strom)*100:.2f} ± {np.std(Strom_err/Strom, ddof=1)*100:.2f}%')
+
+
+
