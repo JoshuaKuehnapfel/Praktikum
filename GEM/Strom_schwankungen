@@ -96,7 +96,7 @@ plt.grid(True)
 ax[1].scatter(U, -I_err/I*100, label='Rel. Fehler Strom (Quelle an)', color = 'maroon')
 ax[1].set_label('Strom I [A]')
 ax[1].set_ylabel('Rel. Fehler I [%]')
-ax[2].set_xlabel(r'Spannung $V_{Drift}$ [V]')
+ax[2].set_xlabel(r'Spannung $\Delta V_{G1}$ [V]')
 ax[2].scatter(U, -I_aus_err/I_aus*100, label='Rel. Fehler Strom (Quelle aus)', color = 'maroon')
 ax[2].set_ylabel(r'Rel. Fehler $I_{aus}$ [%]')
 for a in ax:
