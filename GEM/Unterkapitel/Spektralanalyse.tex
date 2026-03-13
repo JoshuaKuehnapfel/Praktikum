@@ -1,7 +1,33 @@
 \section{Spektralanalyse}
 
-In dieser Messreihe haben wir die unterschiedlichen Spektren des GEM-Detektors vermessen, wenn er verschiedenen Quellen ausgesetzt ist. Wir haben die Quellen $^{55}$Fe, $^{109}$Cd und die x-ray gun verwendet. \\ 
-Zur Analyse der aufgenommenen Spektren haben wir zuerst an die Peaks der einzelnen Spektren Gaußkurven gefittet. Die aus diesem Fit erhaltenen Erwartungswerte und deren Unsicherheiten sind in Tabelle \ref{tab:Spektralanalyse} aufgeführt. Die Unsicherheiten, die wir dem Programm übergeben haben, setzen sich zusammen aus der quadratischen Summe des Poissonfehlers und des systematischen Fehlers aufgrund der Bingrößen: 
+In dieser Messreihe haben wir die unterschiedlichen Spektren des GEM-Detektors vermessen, wenn er verschiedenen Quellen ausgesetzt ist. Wir haben die Quellen $^{55}$Fe, $^{109}$Cd und eine x-ray gun mit Silbertarget verwendet. \\ 
+$^{55}$Fe zerfällt über K-Einfang und unter Emission eines Photons der\\ Energie $\approx5.9\si{\keV}$ zu $^{55}$Mn \cite{Anleitungsmappe}. Unsere verwendete Quelle hatte eine Aktivität von 
+\begin{center}
+    $ A = A_0 e^{-\lambda t} = A_0 e^{\frac{-ln(2)}{T_{1/2}}t} = \SI{355.5}{\kilo\becquerel}\cdot e^{\frac{-ln(2)}{2,737}\cdot 7,344} = \SI{55.35}{\kilo\becquerel} $ 
+\end{center}
+Auch $^{109}$Cd zerfällt über K-Einfang zu $^{109}$Ag. Die Aktivität der Quelle betrug am Versuchstag
+\footnote{Die zur Rechnung verwendeten Halbwertszeiten stammen aus den Quellen \cite{Fe-55} und \cite{Cadmium-109}}
+\begin{center}
+    $ A = \SI{349.2}{\kilo\becquerel}\cdot e^{\frac{-ln(2)}{1.263}\cdot 7,344} = \SI{6.20}{\kilo\becquerel} $
+\end{center}
+
+
+Die Aufnahmen wurden mit den Messparametern aus Tabelle \ref{tab: Spektrum Messeinstellungen} durchgeführt. 
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Range & Triggerschwelle & Messzeit \\
+        \hline
+        \SI{2}{\V} & \SI{0.05}{\V} (Fe, Cd); \SI{0.12}{\V} (x-ray) & \SI{400}{\s}  \\
+        \hline
+    \end{tabular}
+    \caption{Messeinstellungen bei Spektralanalyse}
+    \label{tab: Spektrum Messeinstellungen}
+\end{table}
+
+Zur Analyse der aufgenommenen Spektren haben wir zuerst an die Peaks der einzelnen Spektren Gaußkurven gefittet. Die aus diesem Fit erhaltenen Erwartungswerte und deren Unsicherheiten sind in Tabelle \ref{tab:Spektralanalyse} aufgeführt. Die Unsicherheiten, die wir der Fit-Methode übergeben haben, setzen sich zusammen aus der quadratischen Summe des Poissonfehlers und des systematischen Fehlers aufgrund der Bingrößen: 
 
 
 \begin{equation}
@@ -9,7 +35,7 @@ Zur Analyse der aufgenommenen Spektren haben wir zuerst an die Peaks der einzeln
     \label{eq:sigma_mu}
 \end{equation}
 
-N bezeichnet die counts im zugehörigen pulseheight-Intervall. Dabei wird ein Poission-Fehler auf die Counts angenommen. \\
+N bezeichnet die counts im zugehörigen pulseheight-Intervall. Dabei wird ein Poisson-Fehler auf die Counts angenommen. \\
 
 Die erhaltenen Spektren und Gaußkurven sind in Abbildung \ref{fig:Spektren} zu sehen. 
 
@@ -24,26 +50,37 @@ Die erhaltenen Spektren und Gaußkurven sind in Abbildung \ref{fig:Spektren} zu 
 
 
 Die Peaks des $^{55}$Fe sind bekannt. Der Argon-Escape-Peak befindet sich bei \SI{2.95}{\keV} und der Peak des Eisens befindet sich bei \SI{5.88}{\keV} \cite{Vorlesungsfolien}. Vergleicht man diese Werte mit den im vermessenen Spektrum erhaltenen pulseheights ergeben sich die Kalibrierungsfaktoren und deren Unsicherheiten zu: \\
-$K=\frac{\SI{5.88}{\keV}}{246.822} = 0.024 \pm \SI{0.00004}{\keV}$ \\  
-$K=\frac{\SI{2.95}{\keV}}{127.264} = 0.023 \pm \SI{0.0003}{\keV}$ \\
+\begin{center}
+\boxed{
+\begin{aligned}
+        K&=\frac{\SI{5.88}{\keV}}{\text{Fe}_{\text{HP}}} = 0.023\,82 \pm \SI{0.00004}{\keV} \\  
+        K&=\frac{\SI{2.95}{\keV}}{\text{Fe}_{\text{AE}}} = 0.0232 \pm \SI{0.0003}{\keV} 
+\end{aligned}
+}
+\end{center}
+Wobei Fe$_{\text{HP}}$ die pulseheight des Hauptpeaks des Eisens beschreibt und Fe$_{\text{AE}}$ die des Argon-Escape-Peaks.
 Die Unsicherheiten wurden mithilfe der Gauß'schen Fehlerfortpflanzung berechnet. 
-Den gesamten Kalibrierungsfaktor und seine Unsicherheit erhalten wir über Berechnung des gewichteten Mittelwerts und des zugehörigen Fehlers. Damit ergibt sich: \\ 
-$K_{ges} = 0.024 \pm \SI{0.00004}{\keV}$ \\ 
+Den gesamten Kalibrierungsfaktor und seine Unsicherheit erhalten wir über Berechnung des gewichteten Mittelwerts und des zugehörigen Fehlers. Damit ergibt sich: \\
+\begin{center}
+    \boxed{
+    K_{ges} = 0.023\,81 \pm \SI{0.00004}{\keV}  
+    }
+\end{center}
 Wenn man nun die pulseheight des Peaks von Cadmium und der x-ray gun mit diesem Faktor multipliziert, kann man erkennen, dass die resultierenden Werte sehr gut zu den aus der Literatur erwarteten Werte passen (Tabelle \ref{tab:Spektralanalyse}). Die Abweichung liegt etwa im 1$\sigma$-Intervall. 
 
-\begin{table}
+\begin{table}[h]
     \begin{tabular}{|l||c|c|c|}
         \hline 
         Quelle & Peakwert der pulseheight & Peak $\cdot K_{ges}$ & Literaturwert \\ 
         \hline 
         \hline 
-        $^{55}$Fe & $246.822 \pm 0.438$ & & \\
+        $^{55}$Fe (Hauptpeak) & $246.822 \pm 0.438$ & & \SI{5.88}{\keV} \cite{Vorlesungsfolien}\\
         \hline 
-        $ ^{55}$Fe (Argon-Escape) & $ 127.264 \pm 1.515$ & &  \\ 
+        $ ^{55}$Fe (Argon-Escape) & $ 127.264 \pm 1.515$ & &\SI{2.95}{\keV} \cite{Vorlesungsfolien}\\ 
         \hline 
-        $^{109}$Cd & $343.020 \pm 4.177$ & $ 8.232 \pm $ \SI{0.101}{\keV} & \SI{8.34}{\keV} \cite{Anleitungsmappe}\\
+        $^{109}$Cd & $343.020 \pm 4.177$ & $ 8.232 \pm\SI{0.101}{\keV}$ & \SI{8.34}{\keV} \cite{Anleitungsmappe}\\
         \hline 
-        x-ray gun & $345.949 \pm 5.223$ & $8.30 \pm $ \SI{0.126}{\keV} & \SI{8.34}{\keV} \cite{Anleitungsmappe}\\
+        x-ray gun & $345.949 \pm 5.223$ & $8.300 \pm\SI{0.126}{\keV}$ & \SI{8.34}{\keV} \cite{Anleitungsmappe}\\
         \hline 
     \end{tabular}
     \label{tab:Spektralanalyse}
@@ -58,18 +95,14 @@ Wenn man nun die pulseheight des Peaks von Cadmium und der x-ray gun mit diesem 
     
 \end{figure}
     
-Das erhaltene Eisenspektrum zeigt zwei Peaks, was mit der Erwartung übereinstimmt. Der erste kleine Peak entspricht, wie oben schon erwähnt, dem Argon-Escape-Peak. Dieser entsteht, wenn ein Argon-Atom durch ein Röntgenphoton ionisiert wird. Meist wird dabei ein Elektron aus der K-Schale rausgeschlagen. Bei der anschließenden Rekombination wird ein Photon frei, was den Detektor auch undetektiert verlassen kann. Die Differenz der ursprünglichen Energie des Röntgenphotons und des K$_{\alpha}$-Photons sieht man dann als Peak im Spektrum. \\
-Der zweite Peak entspircht dem Hauptpeak des $^{55}$Fe. \\ 
+Das erhaltene Eisenspektrum zeigt zwei Peaks, was mit der Erwartung übereinstimmt. Der erste kleine Peak entspricht, wie oben schon erwähnt, dem Argon-Escape-Peak. Dieser entsteht, wenn ein Argon-Atom durch ein Röntgenphoton ionisiert wird. Meist wird dabei ein Elektron aus der K-Schale rausgeschlagen. Bei der anschließenden Rekombination wird ein Photon frei, welches den Detektor auch undetektiert verlassen kann. Die Differenz der ursprünglichen Energie des Röntgenphotons und des K$_{\alpha}$-Photons sieht man dann als Peak im Spektrum. \\
+Der zweite Peak entspricht dem Hauptpeak des $^{55}$Fe. \\ 
 \\
-Die Spektren der x-ray gun und des $^{109}$Cd sehen sehr ähnlich aus. Das lässt sich leicht erklären, denn die hauptsächlich emittierten Röntgenphotonen der x-ray gun und der $^{109}$Cd-Quelle haben den gleichen Wert von \SI{22.1}{\keV} \cite{Anleitungsmappe}. Nach der Absorption und Reemittierung aus der Kupferkathode haben die Photonen aus beiden Quellen die oben aufgeführte Energie von etwa \SI{8.34}{\keV}. Diesen Peak kann man in der Abbildung \ref{fig:Spektren_Energie} gut erkennen. Es scheint aber ebenfalls ein kleiner Peak um etwa \SI{5}{\keV} entstanden zu sein. Dies könnten ebenfalls Argon-Escape-Peaks sein. Die Energie der Ar K$_{\alpha}$-Linie beträgt \SI{2.96}{\keV} \cite{K_alpha-Linien}. Zieht man diese Energie von der Peakenergie ab erhält man \SI{5.38}{\keV}, was in etwa der Stelle des kleinen Peaks entspricht. \\
-
-
-- Fe schmaler -> keine WW mit Kupferkathode? 
-- Breite beeinflusst durch Stoßverbreiterung in Kupfer?
-- Breite beeinflusst durch Bandstruktur von Kupfer? 
-
-1. What are the differences between the sources?
-
-5. How can you explain the peaks energy and their width based on physics you know?
-6. What are the parameters that affect the peak width?
-7. Would you use the GEM detector as a spectra analyzer? Why? 
+Die Spektren der x-ray gun und des $^{109}$Cd sehen sehr ähnlich aus. Das lässt sich leicht erklären, denn die hauptsächlich emittierten Röntgenphotonen der x-ray gun und der $^{109}$Cd-Quelle haben den gleichen Wert von $\approx$\SI{22.1}{\keV} \cite{Anleitungsmappe}, da die x-ray gun ein Silbertarget beschießt und Cadmium in Silber zerfällt. Nach der Absorption und Reemission aus der Kupferkathode haben die Photonen aus beiden Quellen die oben aufgeführte Energie von etwa \SI{8.34}{\keV}. Diesen Peak kann man in der Abbildung \ref{fig:Spektren_Energie} gut erkennen. Es scheinen aber ebenfalls kleine Peaks um etwa \SI{5}{\keV} entstanden zu sein. Dies könnten ebenfalls Argon-Escape-Peaks sein. Die Energie der Ar K$_{\alpha}$-Linie beträgt \SI{2.96}{\keV} \cite{K_alpha-Linien}. Zieht man diese Energie von der Peakenergie ab erhält man \SI{5.38}{\keV}, was in etwa der Stelle des kleinen Peaks entspricht. \\
+\\
+Wenn man sich die Breiten der Peaks anschaut, fällt auf, dass die Spektren des Cadmiums und der x-ray gun deutlich breiter sind, als das ziemlich schmale Eisen-Spektrum. Ein Grund dafür könnte die oben schon erwähnte Absorption und Reemission der Photonen von $^{109}$Cd und der x-ray gun durch die Kupferkathode sein. \\
+Die \SI{22.1}{\keV}-Photonen schlagen bei den Kupferatomen Elektronen aus der K-Schale raus. Für den anschließenden Rekombinationsvorgang gibt es unterschiedliche Möglichkeiten mit verschiedenen Wahrscheinlichkeiten. Die dadurch emittierten Photonen haben hauptsächlich Energien von \SI{8.05}{\keV} (K$_{\alpha}$-Linie), aber auch \SI{8.91}{\keV} (K$_{\beta}$-Linie) sind möglich \cite{K_alpha-Linien}. Die Auflösung des Detektors könnte zu gering sein, um diese zwei Energien zu trennen, weshalb ein breiterer Peak entsteht. \\
+Die Energie der $^{55}$Fe-Photonen ist zu gering, um die K-Elektronen des Kupfers zu ionisieren, weshalb diese fast ungehindert durch die Kupferkathode hindurch kommen. Somit tritt dieser Effekt hier nicht auf. \\
+Durch Temperatur- und Druckschwankungen ändert sich die mittlere freie Weglänge der Elektronen, wodurch der Gain schwankt und somit auch die gemessenen Energien. Dies hat ebenfalls eine verbreiternde Wirkung auf den Peak.\\
+\\
+Durch die aufgeführten Effekte, wie Argon-Escape, Druck- und Temperaturschwankungen, eignet sich der GEM-Detektor zur genauen Untersuchung von Spektren nicht. Besonders der Argon-Escape-Peak stört die Spektralanalyse. Außerdem sorgt die Absorption der Photonen durch die Kupferkathode für Verfälschungen der Peak-Energien in dem Sinne, dass es sich dabei nicht mehr um die Peak-Energie des Cadmiums bzw. der x-ray gun handelt.  
