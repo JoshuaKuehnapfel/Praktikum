@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import scipy.optimize as scopt
 import uncertainties as unc
 import scipy.constants as scon
-
+import os
+os.chdir('GEM/Daten')
 U = [3100, 3400, 3300, 3200, 3350, 3000, 3250]
 U0 = [2900, 3000, 3100, 3200, 3300, 3350, 3400]
 U_80_40 = np.array([2800, 2880, 2960, 3040, 3120, 3210, 3300])

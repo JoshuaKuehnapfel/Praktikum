@@ -6,7 +6,7 @@ from scipy.optimize import curve_fit
 import scipy.constants as const
 import os
 
-os.chdir('C:/VS_Studio_Latex/Uni (lLokale Kopie)/Praktikum/GEM')
+
 
 plt.rcParams['font.size'] = 16.0
 plt.rcParams['font.family'] = 'sans-serif'
