@@ -1,170 +1,174 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.2)  11 MAR 2026 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.13)  14 MAR 2026 11:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/VS_Studio_Latex/Uni (lLokale Kopie)/Praktikum/GEM/main.tex"
-(c:/VS_Studio_Latex/Uni (lLokale Kopie)/Praktikum/GEM/main.tex
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
-(C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+**g:/Uni/Praktikum/GEM/main.tex
+(g:/Uni/Praktikum/GEM/main.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+(c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/german\ngerman.sty v2.5e 1998-07-08
-Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
-LaTeX Encoding Info:    Ignoring declaration for text command \" (encoding ?) on input line 114.
-LaTeX Encoding Info:    Ignoring declaration for text command \ss (encoding ?) on input line 115.
-LaTeX Encoding Info:    Ignoring declaration for text command \i (encoding ?) on input line 116.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 117.
-\grmnU@D=\dimen149
-LaTeX Encoding Info:    Redeclaring text command \" (encoding T1) on input line 320.
-LaTeX Encoding Info:    Redeclaring text command \" (encoding OT1) on input line 321.
-ngerman -- \language number for naustrian undefined, default 48 used.
-)
-==> First Aid for ngerman.sty applied!
-(C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2025/07/09 v2.17z AMS math features
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/11/30 v24.14 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+\babel@savecnt=\count270
+\U@D=\dimen142
+\l@unhyphenated=\language89
+ (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count271
+ (c:/texlive/2024/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2024/12/10 v2.15 German support for babel (post-1996 orthography)
+ (c:/texlive/2024/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2024/12/10 v2.15 German support for babel (post-1996 orthography)
+Package babel Info: Making " an active character on input line 122.
+))) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 11.
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen150
-)) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen143
+)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen151
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen144
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count283
+\inf@bad=\count272
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count284
-\leftroot@=\count285
+\uproot@=\count273
+\leftroot@=\count274
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count286
-\DOTSCASE@=\count287
+\classnum@=\count275
+\DOTSCASE@=\count276
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
+\Mathstrutbox@=\box52
+\strutbox@=\box53
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen152
+\big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count288
+\macc@depth=\count277
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count289
+\c@MaxMatrixCols=\count278
 \dotsspace@=\muskip17
-\c@parentequation=\count290
-\dspbrk@lvl=\count291
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
 \tag@help=\toks18
-\row@=\count292
-\column@=\count293
-\maxfields@=\count294
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
 \andhelp@=\toks19
-\eqnshift@=\dimen153
-\alignsep@=\dimen154
-\tagshift@=\dimen155
-\tagwidth@=\dimen156
-\totwidth@=\dimen157
-\lineht@=\dimen158
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
 \@envbody=\toks20
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2950.
-LaTeX Info: Redefining \] on input line 2951.
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen159
-\Gin@req@width=\dimen160
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count295
+\c@float@type=\count284
 \float@exts=\toks23
-\float@box=\box55
+\float@box=\box54
 \@float@everytoks=\toks24
-\@floatcapt=\box56
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/svg\svg.sty
+\@floatcapt=\box55
+) (c:/texlive/2024/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
-Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
-Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hooks)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+ (c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+ (c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+) (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+) (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count296
-\svg@box=\box57
-\c@svg@param@currpage=\count297
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+\c@svg@param@lastpage=\count285
+\svg@box=\box56
+\c@svg@param@currpage=\count286
+) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -174,323 +178,287 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent.sty
-Package: transparent 2025-06-23 v1.6 Transparency with color stacks
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent-nometadata.sty
-Package: transparent-nometadata 2025-06-23 v1.6 Transparency via pdfTeX's color stack (HO)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/transparent/transparent.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+ (c:/texlive/2024/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
+ (c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-))) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+))) (c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen161
-\pgfutil@tempdimb=\dimen162
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box58
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
-)) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
-Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfutil@tempdima=\dimen154
+\pgfutil@tempdimb=\dimen155
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box57
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks26
 \pgfkeys@temptoks=\toks27
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen163
-\pgf@y=\dimen164
-\pgf@xa=\dimen165
-\pgf@ya=\dimen166
-\pgf@xb=\dimen167
-\pgf@yb=\dimen168
-\pgf@xc=\dimen169
-\pgf@yc=\dimen170
-\pgf@xd=\dimen171
-\pgf@yd=\dimen172
+\pgf@x=\dimen156
+\pgf@y=\dimen157
+\pgf@xa=\dimen158
+\pgf@ya=\dimen159
+\pgf@xb=\dimen160
+\pgf@yb=\dimen161
+\pgf@xc=\dimen162
+\pgf@yc=\dimen163
+\pgf@xd=\dimen164
+\pgf@yd=\dimen165
 \w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count298
-\c@pgf@countb=\count299
-\c@pgf@countc=\count300
-\c@pgf@countd=\count301
+\r@pgf@reada=\read3
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
 \t@pgf@toka=\toks29
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
-\pgf@sys@id@count=\count302
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@sys@id@count=\count291
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count303
-\pgfsyssoftpath@bigbuffer@items=\count304
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count305
-\l__siunitx_number_exponent_fixed_int=\count306
-\l__siunitx_number_min_decimal_int=\count307
-\l__siunitx_number_min_integer_int=\count308
-\l__siunitx_number_round_precision_int=\count309
-\l__siunitx_number_lower_threshold_int=\count310
-\l__siunitx_number_upper_threshold_int=\count311
-\l__siunitx_number_group_first_int=\count312
-\l__siunitx_number_group_size_int=\count313
-\l__siunitx_number_group_minimum_int=\count314
-\l__siunitx_angle_tmp_dim=\dimen173
-\l__siunitx_angle_marker_box=\box59
-\l__siunitx_angle_unit_box=\box60
-\l__siunitx_compound_count_int=\count315
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count292
+\pgfsyssoftpath@bigbuffer@items=\count293
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-12-06 v3.4.0 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count294
+\l__siunitx_number_exponent_fixed_int=\count295
+\l__siunitx_number_min_decimal_int=\count296
+\l__siunitx_number_min_integer_int=\count297
+\l__siunitx_number_round_precision_int=\count298
+\l__siunitx_number_lower_threshold_int=\count299
+\l__siunitx_number_upper_threshold_int=\count300
+\l__siunitx_number_group_first_int=\count301
+\l__siunitx_number_group_size_int=\count302
+\l__siunitx_number_group_minimum_int=\count303
+\l__siunitx_angle_tmp_dim=\dimen166
+\l__siunitx_angle_marker_box=\box58
+\l__siunitx_angle_unit_box=\box59
+\l__siunitx_compound_count_int=\count304
+ (c:/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count316
+ (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count305
 ))
-\l__siunitx_table_tmp_box=\box61
-\l__siunitx_table_tmp_dim=\dimen174
-\l__siunitx_table_column_width_dim=\dimen175
-\l__siunitx_table_integer_box=\box62
-\l__siunitx_table_decimal_box=\box63
-\l__siunitx_table_uncert_box=\box64
-\l__siunitx_table_before_box=\box65
-\l__siunitx_table_after_box=\box66
-\l__siunitx_table_before_dim=\dimen176
-\l__siunitx_table_carry_dim=\dimen177
-\l__siunitx_unit_tmp_int=\count317
-\l__siunitx_unit_position_int=\count318
-\l__siunitx_unit_total_int=\count319
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen178
-\ar@mcellbox=\box67
-\extrarowheight=\dimen179
+\l__siunitx_table_tmp_box=\box60
+\l__siunitx_table_tmp_dim=\dimen167
+\l__siunitx_table_column_width_dim=\dimen168
+\l__siunitx_table_integer_box=\box61
+\l__siunitx_table_decimal_box=\box62
+\l__siunitx_table_uncert_box=\box63
+\l__siunitx_table_before_box=\box64
+\l__siunitx_table_after_box=\box65
+\l__siunitx_table_before_dim=\dimen169
+\l__siunitx_table_carry_dim=\dimen170
+\l__siunitx_unit_tmp_int=\count306
+\l__siunitx_unit_position_int=\count307
+\l__siunitx_unit_total_int=\count308
+ (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen171
+\ar@mcellbox=\box66
+\extrarowheight=\dimen172
 \NC@list=\toks32
 \extratabsurround=\skip54
 \backup@length=\skip55
-\ar@cellbox=\box68
-)) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\ar@cellbox=\box67
+)) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+ (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (c:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (c:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (c:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (c:/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count320
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+\c@section@level=\count309
+) (c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen180
-\Hy@linkcounter=\count321
-\Hy@pagecounter=\count322
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen173
+\Hy@linkcounter=\count310
+\Hy@pagecounter=\count311
+ (c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count323
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count312
+ (c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4201.
-Package hyperref Info: Link nesting OFF on input line 4206.
-Package hyperref Info: Hyper index ON on input line 4209.
-Package hyperref Info: Plain pages OFF on input line 4216.
-Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count324
-LaTeX Info: Redefining \url on input line 4807.
-\XeTeXLinkMargin=\dimen181
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count313
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen174
+ (c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (c:/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count325
-\Field@Width=\dimen182
-\Fld@charsize=\dimen183
-Package hyperref Info: Hyper figures OFF on input line 6084.
-Package hyperref Info: Link nesting OFF on input line 6089.
-Package hyperref Info: Hyper index ON on input line 6092.
-Package hyperref Info: backreferencing OFF on input line 6099.
-Package hyperref Info: Link coloring OFF on input line 6104.
-Package hyperref Info: Link coloring with OCG OFF on input line 6109.
-Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count326
-\c@Item=\count327
-\c@Hfootnote=\count328
+\Fld@menulength=\count314
+\Field@Width=\dimen175
+\Fld@charsize=\dimen176
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (c:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count315
+\c@Item=\count316
+\c@Hfootnote=\count317
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
-\Fld@listcount=\count329
-\c@bookmark@seq@number=\count330
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
-Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+ (c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count318
+\c@bookmark@seq@number=\count319
+ (c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip56
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks33
 \inpenc@posthook=\toks34
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-)
-\bibdata{References.bib}
-(main.bbl)
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 17.
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count331
-)
-No file main.aux.
+) (c:/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count320
+\l__pdf_internal_box=\box68
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Encoding Info:    Redeclaring text command \" (encoding T1) on input line 17.
-LaTeX Encoding Info:    Redeclaring text command \" (encoding OT1) on input line 17.
-(C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count332
-\scratchdimen=\dimen184
+\scratchcounter=\count321
+\scratchdimen=\dimen177
 \scratchbox=\box69
-\nofMPsegments=\count333
-\nofMParguments=\count334
+\nofMPsegments=\count322
+\nofMParguments=\count323
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count335
-\MPscratchDim=\dimen185
-\MPnumerator=\count336
-\makeMPintoPDFobject=\count337
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen178
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
 \everyMPtoPDFconversion=\toks36
-) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
- (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-german.trsl
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (c:/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 17.
-Package hyperref Info: Link coloring OFF on input line 17.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 18.
+Package hyperref Info: Link coloring OFF on input line 18.
+ (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
- [1
 
-{C:/Users/joshu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (Unterkapitel/Theorie.tex
-<Bilder/GEM_Detekro.png, id=14, 699.11188pt x 408.52625pt>
+
+[1
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./Unterkapitel/Theorie.tex
+<Bilder/GEM_Detekro.png, id=47, 699.11188pt x 408.52625pt>
 File: Bilder/GEM_Detekro.png Graphic file (type png)
 <use Bilder/GEM_Detekro.png>
 Package pdftex.def Info: Bilder/GEM_Detekro.png  used on input line 4.
 (pdftex.def)             Requested size: 276.00105pt x 161.28194pt.
+)
+
+[2 <./Bilder/GEM_Detekro.png>] (./Unterkapitel/Gain_Analysis.tex
+Package svg Info: Last page of `./svg-inkscape/Zählraten_svg-tex.pdf' is 1 on input line 18.
+ (./svg-inkscape/Zählraten_svg-tex.pdf_tex
+<./svg-inkscape/Zählraten_svg-tex.pdf, id=68, page=1, 722.7pt x 578.16pt>
+File: ./svg-inkscape/Zählraten_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Zählraten_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Zählraten_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 241.49895pt x 193.2018pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Anleitungsmappe' on page 2 undefined on input line 5.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 2 undefined on input line 5.
-
-
-LaTeX Warning: Reference `fig:SkizzeGem' on page 2 undefined on input line 8.
-
-) [2 <./Bilder/GEM_Detekro.png>] (Unterkapitel/Gain_Analysis.tex
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 3 undefined on input line 2.
-
-
-LaTeX Warning: Reference `eq:Gain' on page 3 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:Rate' on page 3 undefined on input line 14.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Zählraten.svg' on input line 18.
-
-
-Unterkapitel/Gain_Analysis.tex:18: Package svg Error: File `Zählraten_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ...idth=0.7\textwidth]{Bilder/Zählraten.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Zählraten_svg-tex.pdf'
-although `Bilder/Zählraten.svg' was found.
-
-
-Unterkapitel/Gain_Analysis.tex:18: Package svg Error: File `Zählraten_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ...idth=0.7\textwidth]{Bilder/Zählraten.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Zählraten_svg-tex.pdf_tex'
-although `Bilder/Zählraten.svg' was found.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 3 undefined on input line 23.
-
-
-LaTeX Warning: Reference `eq:Gain' on page 3 undefined on input line 23.
 
 [3]
 
@@ -506,89 +474,28 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 36.
 
 
-LaTeX Warning: Reference `fig:7030Vdrift' on page 4 undefined on input line 38.
 
+[4 <./svg-inkscape/Zählraten_svg-tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf' is 1 on input line 81.
+ (./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf, id=193, page=1, 722.7pt x 867.24pt>
+File: ./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 241.49895pt x 289.8027pt.
+)
 
-LaTeX Warning: Reference `kap:Gainkurven-Gas' on page 4 undefined on input line 38.
+[5]
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_alle_svg-tex.pdf' is 1 on input line 91.
+ (./svg-inkscape/Verstärkung_alle_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_alle_svg-tex.pdf, id=201, page=1, 722.7pt x 578.16pt>
+File: ./svg-inkscape/Verstärkung_alle_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Verstärkung_alle_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Verstärkung_alle_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 276.00105pt x 220.79701pt.
+)
 
-
-LaTeX Warning: Reference `fig:7030Vdrift' on page 4 undefined on input line 39.
-
-
-LaTeX Warning: Reference `tab:gain_fit_parameter' on page 4 undefined on input line 57.
-
-
-LaTeX Warning: Reference `fig:Vdriftalle' on page 4 undefined on input line 57.
-
-
-LaTeX Warning: Reference `tab:rel_fehler_strom' on page 4 undefined on input line 59.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Verstärkung_V_Drift.svg' on input line 81.
-
-
-Unterkapitel/Gain_Analysis.tex:81: Package svg Error: File `Verstärkung_V_Drift_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...extwidth]{Bilder/Verstärkung_V_Drift.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf'
-although `Bilder/Verstärkung_V_Drift.svg' was found.
-
-
-Unterkapitel/Gain_Analysis.tex:81: Package svg Error: File `Verstärkung_V_Drift_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...extwidth]{Bilder/Verstärkung_V_Drift.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf_tex'
-although `Bilder/Verstärkung_V_Drift.svg' was found.
-
-[4]
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Verstärkung_alle.svg' on input line 91.
-
-
-Unterkapitel/Gain_Analysis.tex:91: Package svg Error: File `Verstärkung_alle_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 ...8\textwidth]{Bilder/Verstärkung_alle.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_alle_svg-tex.pdf'
-although `Bilder/Verstärkung_alle.svg' was found.
-
-
-Unterkapitel/Gain_Analysis.tex:91: Package svg Error: File `Verstärkung_alle_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 ...8\textwidth]{Bilder/Verstärkung_alle.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_alle_svg-tex.pdf_tex'
-although `Bilder/Verstärkung_alle.svg' was found.
-
+[6 <./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 97.
@@ -601,60 +508,27 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 97.
 
-
-LaTeX Warning: Reference `fig:VerstärkungV1GT' on page 5 undefined on input line 98.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Verstärkung_G1T.svg' on input line 101.
-
-
-Unterkapitel/Gain_Analysis.tex:101: Package svg Error: File `Verstärkung_G1T_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 ...6\textwidth]{Bilder/Verstärkung_G1T.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_G1T_svg-tex.pdf'
-although `Bilder/Verstärkung_G1T.svg' was found.
-
-
-Unterkapitel/Gain_Analysis.tex:101: Package svg Error: File `Verstärkung_G1T_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 ...6\textwidth]{Bilder/Verstärkung_G1T.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_G1T_svg-tex.pdf_tex'
-although `Bilder/Verstärkung_G1T.svg' was found.
-
-
-LaTeX Warning: Reference `fig:SkizzeGem' on page 5 undefined on input line 102.
-
-
-LaTeX Warning: Reference `fig:SkizzeGem' on page 5 undefined on input line 102.
-
-
-LaTeX Warning: Reference `tab:g1t_fit' on page 5 undefined on input line 105.
-
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_G1T_svg-tex.pdf' is 1 on input line 101.
+(./svg-inkscape/Verstärkung_G1T_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_G1T_svg-tex.pdf, id=349, page=1, 722.7pt x 867.24pt>
+File: ./svg-inkscape/Verstärkung_G1T_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Verstärkung_G1T_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Verstärkung_G1T_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 207.0021pt x 248.39664pt.
+)
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             this release.
 (siunitx)             
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
-) [5] (Unterkapitel/Spektralanalyse.tex
-
-LaTeX Warning: Reference `tab:Spektralanalyse' on page 6 undefined on input line 4.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+[7 <./svg-inkscape/Verstärkung_alle_svg-tex.pdf>] (./Unterkapitel/Spektralanalyse.tex
 Overfull \hbox (2.15134pt too wide) in paragraph at lines 3--5
 \T1/cmr/m/n/10 In die-ser Mess-rei-he ha-ben wir die un-ter-schied-li-chen Spek-tren des GEM-Detektors
  []
@@ -664,96 +538,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
+Package svg Info: Last page of `./svg-inkscape/Spektren_svg-tex.pdf' is 1 on input line 19.
+(./svg-inkscape/Spektren_svg-tex.pdf_tex
+<./svg-inkscape/Spektren_svg-tex.pdf, id=511, page=1, 433.62pt x 290.4777pt>
+File: ./svg-inkscape/Spektren_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Spektren_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Spektren_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 345.0pt x 231.12367pt.
+)
 
-LaTeX Warning: Reference `fig:Spektren' on page 6 undefined on input line 14.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Spektren.svg' on input line 19.
-
-
-Unterkapitel/Spektralanalyse.tex:19: Package svg Error: File `Spektren_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...vg[width=1\textwidth]{Bilder/Spektren.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Spektren_svg-tex.pdf'
-although `Bilder/Spektren.svg' was found.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Unterkapitel/Spektralanalyse.tex:19: Package svg Error: File `Spektren_svg-tex.pdf_tex' is missing.
 
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...vg[width=1\textwidth]{Bilder/Spektren.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Spektren_svg-tex.pdf_tex'
-although `Bilder/Spektren.svg' was found.
-
-
-LaTeX Warning: Citation `Vorlesungsfolien' on page 6 undefined on input line 26.
-
-
-LaTeX Warning: Reference `tab:Spektralanalyse' on page 6 undefined on input line 32.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 6 undefined on input line 44.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 6 undefined on input line 46.
-
-
+[8 <./svg-inkscape/Verstärkung_G1T_svg-tex.pdf>]
 Overfull \hbox (42.33806pt too wide) in paragraph at lines 35--50
 [][]
  []
 
+Package svg Info: Last page of `./svg-inkscape/Spektren_Energie_svg-tex.pdf' is 1 on input line 55.
+(./svg-inkscape/Spektren_Energie_svg-tex.pdf_tex
+<./svg-inkscape/Spektren_Energie_svg-tex.pdf, id=655, page=1, 433.62pt x 290.62453pt>
+File: ./svg-inkscape/Spektren_Energie_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Spektren_Energie_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Spektren_Energie_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 276.00105pt x 184.9924pt.
+)
 
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Spektren_Energie.svg' on input line 55.
-
-
-Unterkapitel/Spektralanalyse.tex:55: Package svg Error: File `Spektren_Energie_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 ....8\textwidth]{Bilder/Spektren_Energie.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Spektren_Energie_svg-tex.pdf'
-although `Bilder/Spektren_Energie.svg' was found.
-
-
-Unterkapitel/Spektralanalyse.tex:55: Package svg Error: File `Spektren_Energie_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 ....8\textwidth]{Bilder/Spektren_Energie.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Spektren_Energie_svg-tex.pdf_tex'
-although `Bilder/Spektren_Energie.svg' was found.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 6 undefined on input line 64.
-
-
-LaTeX Warning: Reference `fig:Spektren_Energie' on page 6 undefined on input line 64.
-
-
-LaTeX Warning: Citation `K_alpha-Linien' on page 6 undefined on input line 64.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--65
@@ -765,102 +577,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--65
 
  []
 
-[6]) [7] (Unterkapitel/Appendix.tex
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Verstärkung_V_Drift_60_40.svg' on input line 6.
 
 
-Unterkapitel/Appendix.tex:6: Package svg Error: File `Verstärkung_V_Drift_60_40_svg-tex.pdf' is missing.
+[9 <./svg-inkscape/Spektren_svg-tex.pdf>])
 
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...dth]{Bilder/Verstärkung_V_Drift_60_40.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf'
-although `Bilder/Verstärkung_V_Drift_60_40.svg' was found.
+[10 <./svg-inkscape/Spektren_Energie_svg-tex.pdf>]
 
+[11] (./Unterkapitel/Appendix.tex
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf' is 1 on input line 6.
+ (./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf, id=2643, page=1, 722.7pt x 867.24pt>
+File: ./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 276.00105pt x 331.19553pt.
+)
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf' is 1 on input line 12.
+ (./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf, id=2645, page=1, 722.7pt x 867.24pt>
+File: ./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 276.00105pt x 331.19553pt.
+)
 
-Unterkapitel/Appendix.tex:6: Package svg Error: File `Verstärkung_V_Drift_60_40_svg-tex.pdf_tex' is missing.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...dth]{Bilder/Verstärkung_V_Drift_60_40.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf_tex'
-although `Bilder/Verstärkung_V_Drift_60_40.svg' was found.
+)
 
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Verstärkung_V_Drift_80_20.svg' on input line 12.
-
-
-Unterkapitel/Appendix.tex:12: Package svg Error: File `Verstärkung_V_Drift_80_20_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...th]{Bilder/Verstärkung_V_Drift_80_20.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf'
-although `Bilder/Verstärkung_V_Drift_80_20.svg' was found.
+[12 <./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf>] (./main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+\T1/cmtt/m/n/10 de / pluginfile . php / 4421592 / mod _ resource / content / 1 / VersuchT7 _ T8 _
+ []
 
 
-Unterkapitel/Appendix.tex:12: Package svg Error: File `Verstärkung_V_Drift_80_20_svg-tex.pdf_tex' is missing.
+Underfull \hbox (badness 2772) in paragraph at lines 14--17
+[]\T1/cmr/m/n/10 RWTH Aa-chen Uni-ver-si-t�t.  An-lei-tungs-map-pe t08 gem.  []$\T1/cmtt/m/n/10 https :
+ []
 
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...th]{Bilder/Verstärkung_V_Drift_80_20.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf_tex'
-although `Bilder/Verstärkung_V_Drift_80_20.svg' was found.
 
-) [8] (main.bbl) (main.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+\T1/cmtt/m/n/10 / / moodle . rwth-[]aachen . de / pluginfile . php / 4457893 / mod _ resource /
+ []
+
+)
+
+[13 <./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf>] (./main.aux)
  ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  BB3801C665BB3DD20EEE34714AC429CA;1303.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: BB3801C665BB3DD20EEE34714AC429CA;1303.
  ) 
 Here is how much of TeX's memory you used:
- 16216 strings out of 467867
- 329694 string characters out of 5418335
- 742002 words of memory out of 5000000
- 44839 multiletter control sequences out of 15000+600000
- 638509 words of font info for 63 fonts, out of 8000000 for 9000
+ 17252 strings out of 473329
+ 348043 string characters out of 5723856
+ 750740 words of memory out of 5000000
+ 40068 multiletter control sequences out of 15000+600000
+ 568394 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,14n,93p,1006b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on main.pdf (8 pages, 542009 bytes).
+ 94i,14n,93p,964b,1041s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (13 pages, 1280521 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3066 PDF objects out of 3580 (max. 8388607)
+ 2056 compressed objects within 21 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
