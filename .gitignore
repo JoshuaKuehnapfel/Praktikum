@@ -5,7 +5,11 @@
 *.log
 *.synctex.gz
 *.pdf
-.bbl
-.blg
+*.bbl
+*.blg
+*.out
+
 \svg-inkscape-*.pdf
 \svg-inkscape-*.pdf_tex
+.vscode/settings.json
+GEM/svg-inkscape/Vergleich_Gemisch_svg-tex.pdf_tex
