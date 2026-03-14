@@ -5,3 +5,7 @@
 *.log
 *.synctex.gz
 *.pdf
+.bbl
+.blg
+\svg-inkscape-*.pdf
+\svg-inkscape-*.pdf_tex

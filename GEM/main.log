@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.13)  14 MAR 2026 11:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.13)  14 MAR 2026 14:27
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **g:/Uni/Praktikum/GEM/main.tex
@@ -157,8 +157,16 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ) (c:/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
-)
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (c:/texlive/2024/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (c:/texlive/2024/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
 \c@svg@param@lastpage=\count285
 \svg@box=\box56
 \c@svg@param@currpage=\count286
@@ -443,13 +451,13 @@ Package hyperref Info: Link coloring OFF on input line 18.
 File: Bilder/GEM_Detekro.png Graphic file (type png)
 <use Bilder/GEM_Detekro.png>
 Package pdftex.def Info: Bilder/GEM_Detekro.png  used on input line 4.
-(pdftex.def)             Requested size: 276.00105pt x 161.28194pt.
+(pdftex.def)             Requested size: 224.2479pt x 131.03651pt.
 )
 
 [2 <./Bilder/GEM_Detekro.png>] (./Unterkapitel/Gain_Analysis.tex
-Package svg Info: Last page of `./svg-inkscape/Zählraten_svg-tex.pdf' is 1 on input line 18.
+Package svg Info: Last page of `./svg-inkscape/Zählraten_svg-tex.pdf' is 1 on input line 16.
  (./svg-inkscape/Zählraten_svg-tex.pdf_tex
-<./svg-inkscape/Zählraten_svg-tex.pdf, id=68, page=1, 722.7pt x 578.16pt>
+<./svg-inkscape/Zählraten_svg-tex.pdf, id=75, page=1, 722.7pt x 578.16pt>
 File: ./svg-inkscape/Zählraten_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Zählraten_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Zählraten_svg-tex.pdf , page1 used on input line 56.
@@ -463,22 +471,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 36.
+(hyperref)                removing `math shift' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 36.
+(hyperref)                removing `subscript' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 36.
+(hyperref)                removing `math shift' on input line 34.
+
+
+Overfull \hbox (22.81766pt too wide) in paragraph at lines 43--51
+ [][] 
+ []
 
 
 
 [4 <./svg-inkscape/Zählraten_svg-tex.pdf>]
-Package svg Info: Last page of `./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf' is 1 on input line 81.
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf' is 1 on input line 79.
  (./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf_tex
-<./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf, id=193, page=1, 722.7pt x 867.24pt>
+<./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf, id=203, page=1, 722.7pt x 867.24pt>
 File: ./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf , page1 used on input line 56.
@@ -486,61 +499,69 @@ Package pdftex.def Info: ./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf , page1
 )
 
 [5]
-Package svg Info: Last page of `./svg-inkscape/Verstärkung_alle_svg-tex.pdf' is 1 on input line 91.
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_alle_svg-tex.pdf' is 1 on input line 86.
  (./svg-inkscape/Verstärkung_alle_svg-tex.pdf_tex
-<./svg-inkscape/Verstärkung_alle_svg-tex.pdf, id=201, page=1, 722.7pt x 578.16pt>
+<./svg-inkscape/Verstärkung_alle_svg-tex.pdf, id=213, page=1, 722.7pt x 578.16pt>
 File: ./svg-inkscape/Verstärkung_alle_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Verstärkung_alle_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Verstärkung_alle_svg-tex.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 276.00105pt x 220.79701pt.
+(pdftex.def)             Requested size: 241.49895pt x 193.2018pt.
 )
 
 [6 <./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf' is 1 on input line 93.
+ (./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf_tex
+<./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf, id=407, page=1, 722.7pt x 578.16pt>
+File: ./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 276.00105pt x 220.79701pt.
+)
+
+[7 <./svg-inkscape/Verstärkung_alle_svg-tex.pdf> <./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 97.
+(hyperref)                removing `math shift' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 97.
+(hyperref)                removing `subscript' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 97.
+(hyperref)                removing `math shift' on input line 100.
 
-Package svg Info: Last page of `./svg-inkscape/Verstärkung_G1T_svg-tex.pdf' is 1 on input line 101.
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_G1T_svg-tex.pdf' is 1 on input line 106.
 (./svg-inkscape/Verstärkung_G1T_svg-tex.pdf_tex
-<./svg-inkscape/Verstärkung_G1T_svg-tex.pdf, id=349, page=1, 722.7pt x 867.24pt>
+<./svg-inkscape/Verstärkung_G1T_svg-tex.pdf, id=651, page=1, 722.7pt x 867.24pt>
 File: ./svg-inkscape/Verstärkung_G1T_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Verstärkung_G1T_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Verstärkung_G1T_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 207.0021pt x 248.39664pt.
 )
 
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)
 
-[7 <./svg-inkscape/Verstärkung_alle_svg-tex.pdf>] (./Unterkapitel/Spektralanalyse.tex
+
+[8])
+
+[9 <./svg-inkscape/Verstärkung_G1T_svg-tex.pdf>] (./Unterkapitel/Spektralanalyse.tex
 Overfull \hbox (2.15134pt too wide) in paragraph at lines 3--5
 \T1/cmr/m/n/10 In die-ser Mess-rei-he ha-ben wir die un-ter-schied-li-chen Spek-tren des GEM-Detektors
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-Package svg Info: Last page of `./svg-inkscape/Spektren_svg-tex.pdf' is 1 on input line 19.
+Package svg Info: Last page of `./svg-inkscape/Spektren_svg-tex.pdf' is 1 on input line 45.
 (./svg-inkscape/Spektren_svg-tex.pdf_tex
-<./svg-inkscape/Spektren_svg-tex.pdf, id=511, page=1, 433.62pt x 290.4777pt>
+<./svg-inkscape/Spektren_svg-tex.pdf, id=850, page=1, 433.62pt x 290.4777pt>
 File: ./svg-inkscape/Spektren_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Spektren_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Spektren_svg-tex.pdf , page1 used on input line 56.
@@ -550,15 +571,28 @@ Package pdftex.def Info: ./svg-inkscape/Spektren_svg-tex.pdf , page1 used on inp
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
-[8 <./svg-inkscape/Verstärkung_G1T_svg-tex.pdf>]
-Overfull \hbox (42.33806pt too wide) in paragraph at lines 35--50
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
+
+ []
+
+
+
+[10]
+Overfull \hbox (43.44989pt too wide) in paragraph at lines 72--87
 [][]
  []
 
-Package svg Info: Last page of `./svg-inkscape/Spektren_Energie_svg-tex.pdf' is 1 on input line 55.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package svg Info: Last page of `./svg-inkscape/Spektren_Energie_svg-tex.pdf' is 1 on input line 92.
 (./svg-inkscape/Spektren_Energie_svg-tex.pdf_tex
-<./svg-inkscape/Spektren_Energie_svg-tex.pdf, id=655, page=1, 433.62pt x 290.62453pt>
+<./svg-inkscape/Spektren_Energie_svg-tex.pdf, id=872, page=1, 433.62pt x 290.62453pt>
 File: ./svg-inkscape/Spektren_Energie_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Spektren_Energie_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Spektren_Energie_svg-tex.pdf , page1 used on input line 56.
@@ -567,62 +601,80 @@ Package pdftex.def Info: ./svg-inkscape/Spektren_Energie_svg-tex.pdf , page1 use
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--65
+)
+Underfull \hbox (badness 10000) in paragraph at lines 98--27
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 98--27
 
-[9 <./svg-inkscape/Spektren_svg-tex.pdf>])
+ []
 
-[10 <./svg-inkscape/Spektren_Energie_svg-tex.pdf>]
 
-[11] (./Unterkapitel/Appendix.tex
+Overfull \hbox (0.58891pt too wide) in paragraph at lines 98--27
+\T1/cmr/m/n/10 Schale raus. F�r den an-schlie-�en-den Re-kom-bi-na-ti-ons-vor-gang gibt es un-ter-schied-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--27
+
+ []
+
+
+
+[11 <./svg-inkscape/Spektren_svg-tex.pdf>]
+
+[12 <./svg-inkscape/Spektren_Energie_svg-tex.pdf>]
+
+[13] (./Unterkapitel/Appendix.tex
 Package svg Info: Last page of `./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf' is 1 on input line 6.
  (./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf_tex
-<./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf, id=2643, page=1, 722.7pt x 867.24pt>
+<./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf, id=2861, page=1, 722.7pt x 867.24pt>
 File: ./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 276.00105pt x 331.19553pt.
 )
+
+Package svg Warning: Since the encountered filedate of file
+(svg)                `./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf_tex' is newer than 
+(svg)                `./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf' it's supposed that
+(svg)                you customized this file. To avoid an accidental
+(svg)                overwriting of this file, the Inkscape export
+(svg)                won't be done. If you want to overwrite the
+(svg)                existing file please choose the parameter
+(svg)                `inkscape=force' on input line 12.
+
 Package svg Info: Last page of `./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf' is 1 on input line 12.
- (./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf_tex
-<./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf, id=2645, page=1, 722.7pt x 867.24pt>
+(./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf, id=2863, page=1, 722.7pt x 867.24pt>
 File: ./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 276.00105pt x 331.19553pt.
-)
+))
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
-
-[12 <./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf>] (./main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[14 <./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf>] (./main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 \T1/cmtt/m/n/10 de / pluginfile . php / 4421592 / mod _ resource / content / 1 / VersuchT7 _ T8 _
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 14--17
-[]\T1/cmr/m/n/10 RWTH Aa-chen Uni-ver-si-t�t.  An-lei-tungs-map-pe t08 gem.  []$\T1/cmtt/m/n/10 https :
+Underfull \hbox (badness 1490) in paragraph at lines 18--21
+[]\T1/cmr/m/n/10 RWTH Aa-chen Uni-ver-si-t�t.  An-lei-tungs-map-pe T08 GEM.  []$\T1/cmtt/m/n/10 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 \T1/cmtt/m/n/10 / / moodle . rwth-[]aachen . de / pluginfile . php / 4457893 / mod _ resource /
  []
 
-)
 
-[13 <./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf>] (./main.aux)
+
+[15 <./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf>])
+
+[16] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
@@ -631,18 +683,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BB3801C665BB3DD20EEE34714AC429CA;1303.
  ) 
 Here is how much of TeX's memory you used:
- 17252 strings out of 473329
- 348043 string characters out of 5723856
- 750740 words of memory out of 5000000
- 40068 multiletter control sequences out of 15000+600000
- 568394 words of font info for 59 fonts, out of 8000000 for 9000
+ 17411 strings out of 473329
+ 351785 string characters out of 5723856
+ 755553 words of memory out of 5000000
+ 40199 multiletter control sequences out of 15000+600000
+ 569924 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,14n,93p,964b,1041s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (13 pages, 1280521 bytes).
+ 94i,15n,93p,1036b,1163s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (16 pages, 1447257 bytes).
 PDF statistics:
- 3066 PDF objects out of 3580 (max. 8388607)
- 2056 compressed objects within 21 object streams
- 43 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3384 PDF objects out of 3580 (max. 8388607)
+ 2275 compressed objects within 23 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
