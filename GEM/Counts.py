@@ -1,6 +1,6 @@
 import numpy as np
 import os
-os.chdir("Praktikum/GEM/Daten")
+os.chdir("Daten")
 
 name = ['Kadmium', 'Eisen', 'xray']
 data_rausch = np.loadtxt('Rauschspectrum.csv', delimiter=',', skiprows=1)

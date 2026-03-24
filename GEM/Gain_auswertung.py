@@ -1,15 +1,13 @@
 
-import re
-
+#%%
+import uncertainties as unc
 import numpy as np
 import matplotlib.pyplot as plt
 from uncertainties import ufloat
 from scipy.optimize import curve_fit
 import scipy.constants as const
 import os
-
-os.chdir('C:/VS_Studio_Latex/Uni (lLokale Kopie)/Praktikum/GEM')
-
+print(os.getcwd())
 plt.rcParams['font.size'] = 16.0
 plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['font.sans-serif'] = 'Arial'
@@ -18,7 +16,6 @@ plt.rcParams['axes.labelsize'] = 'medium'
 plt.rcParams['axes.labelweight'] = 'bold'
 plt.rcParams['axes.linewidth'] = 1.2
 plt.rcParams['lines.linewidth'] = 2.0
-
 Fehlerkorrektur = 1
 N = ufloat(322, 2.8)
 e = const.e
@@ -112,7 +109,7 @@ def plotting(data, U, c = 'darkblue'):
     for i in range(len(I)):
         I_temp = ufloat(I[i], I_err[i])
         I_temp_aus = ufloat(I_aus[i], I_aus_err[i])
-        G = np.abs((I_temp-I_temp_aus)/(e*Rate*N))
+        G = abs((I_temp- I_temp_aus)/(e*Rate*N))
         Gain[i] = G.n
         Gain_uns[i] = G.s
     plt.errorbar(U, Gain, yerr=Gain_uns, fmt='o', label='Gain mit Unsicherheiten', linestyle='dashdot', color=c)
@@ -213,3 +210,5 @@ for a in ax:
 
 ax[3].set_xlabel(r'Spannung $\Delta V_{G1}$ [V]')
 plt.savefig('Bilder/Verstärkung_G1T.svg', dpi=300)
+
+# %%

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.2)  13 MAR 2026 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.2)  13 MAR 2026 21:33
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/VS_Studio_Latex/Uni (lLokale Kopie)/Praktikum/GEM/main.tex"
-(c:/VS_Studio_Latex/Uni (lLokale Kopie)/Praktikum/GEM/main.tex
+**c:/VS_Studio_Latex/Uni/Praktikum/GEM/main.tex
+(c:/VS_Studio_Latex/Uni/Praktikum/GEM/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -172,8 +172,16 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
-)
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/ifplatform\ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
 \c@svg@param@lastpage=\count298
 \svg@box=\box57
 \c@svg@param@currpage=\count299
@@ -383,59 +391,34 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@posthook=\toks34
 ) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-)
-
-c:/VS_Studio_Latex/Uni (lLokale Kopie)/Praktikum/GEM/main.tex:12: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 <
-      <<<<<< HEAD
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-c:/VS_Studio_Latex/Uni (lLokale Kopie)/Praktikum/GEM/main.tex:14: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 =
-      ======
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count333
+) (main.aux
+Package babel Info: 'ngerman' activates 'german' shorthands.
+(babel)             Reported on input line 9.
 )
-No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-Package babel Info: 'ngerman' activates 'german' shorthands.
-(babel)             Reported on input line 20.
-(C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+ (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count334
 \scratchdimen=\dimen184
@@ -462,86 +445,33 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (C:\Users\joshu\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 20.
-Package hyperref Info: Link coloring OFF on input line 20.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 16.
+Package hyperref Info: Link coloring OFF on input line 16.
+ (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
  [1
 
-{C:/Users/joshu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2] (Unterkapitel/Theorie.tex
-<Bilder/GEM_Detekro.png, id=18, 699.11188pt x 408.52625pt>
+{C:/Users/joshu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (Unterkapitel/Theorie.tex
+<Bilder/GEM_Detekro.png, id=46, 699.11188pt x 408.52625pt>
 File: Bilder/GEM_Detekro.png Graphic file (type png)
 <use Bilder/GEM_Detekro.png>
 Package pdftex.def Info: Bilder/GEM_Detekro.png  used on input line 4.
 (pdftex.def)             Requested size: 224.2479pt x 131.03651pt.
+) [2 <./Bilder/GEM_Detekro.png>] (Unterkapitel/Gain_Analysis.tex
+Package svg Info: Last page of `./svg-inkscape/Zählraten_svg-tex.pdf' is 1 on input line 16.
+ (svg-inkscape/Zählraten_svg-tex.pdf_tex
+<./svg-inkscape/Zählraten_svg-tex.pdf, id=74, page=1, 722.7pt x 578.16pt>
+File: ./svg-inkscape/Zählraten_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Zählraten_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Zählraten_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 241.49895pt x 193.2018pt.
+)
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Citation `Anleitungsmappe' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Reference `fig:SkizzeGem' on page 3 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Raether-Limit' on page 3 undefined on input line 9.
-
-
-LaTeX Warning: Reference `fig:SkizzeGem' on page 3 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 3 undefined on input line 10.
-
-) [3 <./Bilder/GEM_Detekro.png>] (Unterkapitel/Gain_Analysis.tex
-
-LaTeX Warning: Reference `eq:defGain' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:Rate' on page 4 undefined on input line 12.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Zählraten.svg' on input line 16.
-
-
-Unterkapitel/Gain_Analysis.tex:16: Package svg Error: File `Zählraten_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...idth=0.7\textwidth]{Bilder/Zählraten.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Zählraten_svg-tex.pdf'
-although `Bilder/Zählraten.svg' was found.
-
-
-Unterkapitel/Gain_Analysis.tex:16: Package svg Error: File `Zählraten_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...idth=0.7\textwidth]{Bilder/Zählraten.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Zählraten_svg-tex.pdf_tex'
-although `Bilder/Zählraten.svg' was found.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 4 undefined on input line 21.
-
-
-LaTeX Warning: Reference `eq:Gain' on page 4 undefined on input line 21.
-
-[4]
+[3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 34.
@@ -555,144 +485,38 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 34.
 
 
-LaTeX Warning: Reference `fig:7030Vdrift' on page 5 undefined on input line 36.
-
-
-LaTeX Warning: Reference `kap:Gainkurven-Gas' on page 5 undefined on input line 36.
-
-
-LaTeX Warning: Reference `fig:7030Vdrift' on page 5 undefined on input line 37.
-
-
 Overfull \hbox (22.81766pt too wide) in paragraph at lines 43--51
  [][] 
  []
 
+[4 <./svg-inkscape/Zählraten_svg-tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf' is 1 on input line 79.
+ (svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf, id=201, page=1, 722.7pt x 867.24pt>
+File: ./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 241.49895pt x 289.8027pt.
+) [5]
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_alle_svg-tex.pdf' is 1 on input line 86.
+ (svg-inkscape/Verstärkung_alle_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_alle_svg-tex.pdf, id=211, page=1, 722.7pt x 578.16pt>
+File: ./svg-inkscape/Verstärkung_alle_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Verstärkung_alle_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Verstärkung_alle_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 241.49895pt x 193.2018pt.
+) [6 <./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf' is 1 on input line 93.
+ (svg-inkscape/Vergleich_Gemisch_svg-tex.pdf_tex
+<./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf, id=404, page=1, 722.7pt x 578.16pt>
+File: ./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 276.00105pt x 220.79701pt.
+) [7 <./svg-inkscape/Verstärkung_alle_svg-tex.pdf> <./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf
 
-LaTeX Warning: Reference `tab:gain_fit_parameter' on page 5 undefined on input line 55.
-
-
-LaTeX Warning: Reference `tab:gain_fit_parameter' on page 5 undefined on input line 55.
-
-
-LaTeX Warning: Reference `fig:Vdriftalle' on page 5 undefined on input line 55.
-
-
-LaTeX Warning: Reference `tab:rel_fehler_strom' on page 5 undefined on input line 57.
-
-[5]
-
-LaTeX Warning: Reference `fig:7030Vdrift' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Reference `fig:CO2_60_40' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Reference `fig:CO2_80_20' on page 6 undefined on input line 74.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Verstärkung_V_Drift.svg' on input line 79.
-
-
-Unterkapitel/Gain_Analysis.tex:79: Package svg Error: File `Verstärkung_V_Drift_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 ...extwidth]{Bilder/Verstärkung_V_Drift.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf'
-although `Bilder/Verstärkung_V_Drift.svg' was found.
-
-
-Unterkapitel/Gain_Analysis.tex:79: Package svg Error: File `Verstärkung_V_Drift_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 ...extwidth]{Bilder/Verstärkung_V_Drift.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_svg-tex.pdf_tex'
-although `Bilder/Verstärkung_V_Drift.svg' was found.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Verstärkung_alle.svg' on input line 86.
-
-
-Unterkapitel/Gain_Analysis.tex:86: Package svg Error: File `Verstärkung_alle_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 ...7\textwidth]{Bilder/Verstärkung_alle.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_alle_svg-tex.pdf'
-although `Bilder/Verstärkung_alle.svg' was found.
-
-
-Unterkapitel/Gain_Analysis.tex:86: Package svg Error: File `Verstärkung_alle_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 ...7\textwidth]{Bilder/Verstärkung_alle.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_alle_svg-tex.pdf_tex'
-although `Bilder/Verstärkung_alle.svg' was found.
-
-
-LaTeX Warning: Reference `tab:gain_fit_parameter' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Reference `tab:gain_fit_parameter' on page 6 undefined on input line 87.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Vergleich_Gemisch.svg' on input line 93.
-
-
-Unterkapitel/Gain_Analysis.tex:93: Package svg Error: File `Vergleich_Gemisch_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 ...8\textwidth]{Bilder/Vergleich_Gemisch.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf'
-although `Bilder/Vergleich_Gemisch.svg' was found.
-
-
-Unterkapitel/Gain_Analysis.tex:93: Package svg Error: File `Vergleich_Gemisch_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 ...8\textwidth]{Bilder/Vergleich_Gemisch.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf_tex'
-although `Bilder/Vergleich_Gemisch.svg' was found.
-
-
-LaTeX Warning: Reference `fig:Vergleich_Gemisch' on page 6 undefined on input line 97.
-
-[6]
+pdfTeX warning: pdflatex (file ./svg-inkscape/Vergleich_Gemisch_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 100.
@@ -705,310 +529,142 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 100.
 
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_G1T_svg-tex.pdf' is 1 on input line 106.
+(svg-inkscape/Verstärkung_G1T_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_G1T_svg-tex.pdf, id=646, page=1, 722.7pt x 867.24pt>
+File: ./svg-inkscape/Verstärkung_G1T_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Verstärkung_G1T_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Verstärkung_G1T_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 207.0021pt x 248.39664pt.
+)
 
-LaTeX Warning: Reference `fig:SkizzeGem' on page 7 undefined on input line 102.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:VerstärkungV1GT' on page 7 undefined on input line 102.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Verstärkung_G1T.svg' on input line 106.
-
-
-Unterkapitel/Gain_Analysis.tex:106: Package svg Error: File `Verstärkung_G1T_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 ...6\textwidth]{Bilder/Verstärkung_G1T.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_G1T_svg-tex.pdf'
-although `Bilder/Verstärkung_G1T.svg' was found.
-
-
-Unterkapitel/Gain_Analysis.tex:106: Package svg Error: File `Verstärkung_G1T_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 ...6\textwidth]{Bilder/Verstärkung_G1T.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_G1T_svg-tex.pdf_tex'
-although `Bilder/Verstärkung_G1T.svg' was found.
-
-
-LaTeX Warning: Reference `fig:SkizzeGem' on page 7 undefined on input line 107.
-
-
-LaTeX Warning: Reference `fig:SkizzeGem' on page 7 undefined on input line 107.
-
-
-LaTeX Warning: Reference `tab:g1t_fit' on page 7 undefined on input line 110.
-
-
-LaTeX Warning: Reference `fig:VerstärkungV1GT' on page 7 undefined on input line 133.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 7 undefined on input line 134.
-
-) [7] (Unterkapitel/Spektralanalyse.tex
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 8 undefined on input line 4.
-
-
+[8]) [9 <./svg-inkscape/Verstärkung_G1T_svg-tex.pdf>] (Unterkapitel/Spektralanalyse.tex
 Overfull \hbox (2.15134pt too wide) in paragraph at lines 3--5
 \T1/cmr/m/n/10 In die-ser Mess-rei-he ha-ben wir die un-ter-schied-li-chen Spek-tren des GEM-Detektors
  []
-
-
-LaTeX Warning: Citation `Fe-55' on page 8 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Cadmium-109' on page 8 undefined on input line 9.
-
-
-LaTeX Warning: Reference `tab: Spektrum Messeinstellungen' on page 8 undefined on input line 15.
-
-
-LaTeX Warning: Reference `tab:Spektralanalyse' on page 8 undefined on input line 30.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
+Package svg Info: Last page of `./svg-inkscape/Spektren_svg-tex.pdf' is 1 on input line 45.
+(svg-inkscape/Spektren_svg-tex.pdf_tex
+<./svg-inkscape/Spektren_svg-tex.pdf, id=844, page=1, 433.62pt x 290.4777pt>
+File: ./svg-inkscape/Spektren_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Spektren_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Spektren_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 345.0pt x 231.12367pt.
+)
 
-LaTeX Warning: Reference `fig:Spektren' on page 8 undefined on input line 40.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Spektren.svg' on input line 45.
-
-
-Unterkapitel/Spektralanalyse.tex:45: Package svg Error: File `Spektren_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 ...vg[width=1\textwidth]{Bilder/Spektren.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Spektren_svg-tex.pdf'
-although `Bilder/Spektren.svg' was found.
-
-
-Unterkapitel/Spektralanalyse.tex:45: Package svg Error: File `Spektren_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 ...vg[width=1\textwidth]{Bilder/Spektren.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Spektren_svg-tex.pdf_tex'
-although `Bilder/Spektren.svg' was found.
-
-
-LaTeX Warning: Citation `Vorlesungsfolien' on page 8 undefined on input line 52.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 61--64
 
  []
 
-
-LaTeX Warning: Reference `tab:Spektralanalyse' on page 9 undefined on input line 69.
-
-
-LaTeX Warning: Citation `Vorlesungsfolien' on page 9 undefined on input line 77.
-
-
-LaTeX Warning: Citation `Vorlesungsfolien' on page 9 undefined on input line 79.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 9 undefined on input line 81.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 9 undefined on input line 83.
-
-
+[10]
 Overfull \hbox (43.44989pt too wide) in paragraph at lines 72--87
 [][]
  []
 
 
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Spektren_Energie.svg' on input line 92.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+Package svg Info: Last page of `./svg-inkscape/Spektren_Energie_svg-tex.pdf' is 1 on input line 92.
+(svg-inkscape/Spektren_Energie_svg-tex.pdf_tex
+<./svg-inkscape/Spektren_Energie_svg-tex.pdf, id=866, page=1, 433.62pt x 290.62453pt>
+File: ./svg-inkscape/Spektren_Energie_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Spektren_Energie_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Spektren_Energie_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 276.00105pt x 184.9924pt.
+)
 
-Unterkapitel/Spektralanalyse.tex:92: Package svg Error: File `Spektren_Energie_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 ....8\textwidth]{Bilder/Spektren_Energie.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Spektren_Energie_svg-tex.pdf'
-although `Bilder/Spektren_Energie.svg' was found.
-
-
-Unterkapitel/Spektralanalyse.tex:92: Package svg Error: File `Spektren_Energie_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 ....8\textwidth]{Bilder/Spektren_Energie.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Spektren_Energie_svg-tex.pdf_tex'
-although `Bilder/Spektren_Energie.svg' was found.
-
-
-LaTeX Warning: Citation `Anleitungsmappe' on page 9 undefined on input line 101.
-
-
-LaTeX Warning: Reference `fig:Spektren_Energie' on page 9 undefined on input line 101.
-
-
-LaTeX Warning: Citation `K_alpha-Linien' on page 9 undefined on input line 101.
-
-
-LaTeX Warning: Citation `K_alpha-Linien' on page 9 undefined on input line 104.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 98--29
+Underfull \hbox (badness 10000) in paragraph at lines 98--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--29
+Underfull \hbox (badness 10000) in paragraph at lines 98--25
 
  []
 
 
-Overfull \hbox (0.58891pt too wide) in paragraph at lines 98--29
+Overfull \hbox (0.58891pt too wide) in paragraph at lines 98--25
 \T1/cmr/m/n/10 Schale raus. F�r den an-schlie-�en-den Re-kom-bi-na-ti-ons-vor-gang gibt es un-ter-schied-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--29
+Underfull \hbox (badness 10000) in paragraph at lines 98--25
 
  []
 
-[9] [10] (Unterkapitel/Appendix.tex
+[11 <./svg-inkscape/Spektren_svg-tex.pdf>] [12 <./svg-inkscape/Spektren_Energie_svg-tex.pdf>] [13] (Unterkapitel/Appendix.tex
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf' is 1 on input line 6.
+ (svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf, id=2842, page=1, 722.7pt x 867.24pt>
+File: ./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 276.00105pt x 331.19553pt.
+)
+Package svg Info: Last page of `./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf' is 1 on input line 12.
+ (svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf_tex
+<./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf, id=2844, page=1, 722.7pt x 867.24pt>
+File: ./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 276.00105pt x 331.19553pt.
+)
 
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Verstärkung_V_Drift_60_40.svg' on input line 6.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Unterkapitel/Appendix.tex:6: Package svg Error: File `Verstärkung_V_Drift_60_40_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...dth]{Bilder/Verstärkung_V_Drift_60_40.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf'
-although `Bilder/Verstärkung_V_Drift_60_40.svg' was found.
-
-
-Unterkapitel/Appendix.tex:6: Package svg Error: File `Verstärkung_V_Drift_60_40_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...dth]{Bilder/Verstärkung_V_Drift_60_40.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf_tex'
-although `Bilder/Verstärkung_V_Drift_60_40.svg' was found.
+) [14 <./svg-inkscape/Verstärkung_V_Drift_60_40_svg-tex.pdf>] (main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\T1/cmtt/m/n/10 de / pluginfile . php / 4421592 / mod _ resource / content / 1 / VersuchT7 _ T8 _
+ []
 
 
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Bilder/Verstärkung_V_Drift_80_20.svg' on input line 12.
+Underfull \hbox (badness 1490) in paragraph at lines 16--21
+[]\T1/cmr/m/n/10 RWTH Aa-chen Uni-ver-si-t�t.  An-lei-tungs-map-pe T08 GEM.  []$\T1/cmtt/m/n/10 https :
+ []
 
 
-Unterkapitel/Appendix.tex:12: Package svg Error: File `Verstärkung_V_Drift_80_20_svg-tex.pdf' is missing.
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+\T1/cmtt/m/n/10 / / moodle . rwth-[]aachen . de / pluginfile . php / 4457893 / mod _ resource /
+ []
 
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...th]{Bilder/Verstärkung_V_Drift_80_20.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf'
-although `Bilder/Verstärkung_V_Drift_80_20.svg' was found.
-
-
-Unterkapitel/Appendix.tex:12: Package svg Error: File `Verstärkung_V_Drift_80_20_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...th]{Bilder/Verstärkung_V_Drift_80_20.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf_tex'
-although `Bilder/Verstärkung_V_Drift_80_20.svg' was found.
-
-) [11] (main.bbl) (main.aux)
+[15 <./svg-inkscape/Verstärkung_V_Drift_80_20_svg-tex.pdf>]) [16] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  BB3801C665BB3DD20EEE34714AC429CA;1303.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: BB3801C665BB3DD20EEE34714AC429CA;1303.
  ) 
 Here is how much of TeX's memory you used:
- 17295 strings out of 467867
- 350941 string characters out of 5418335
- 773951 words of memory out of 5000000
- 45892 multiletter control sequences out of 15000+600000
- 640815 words of font info for 66 fonts, out of 8000000 for 9000
+ 17543 strings out of 467867
+ 359011 string characters out of 5418335
+ 776380 words of memory out of 5000000
+ 46079 multiletter control sequences out of 15000+600000
+ 639576 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,15n,93p,1072b,1114s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx0800.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0500.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on main.pdf (11 pages, 653654 bytes).
+ 94i,15n,93p,1054b,1167s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0500.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1728.pfb><C:/Users/joshu/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (16 pages, 1551094 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3171 PDF objects out of 3580 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
