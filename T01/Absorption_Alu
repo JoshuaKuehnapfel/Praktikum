@@ -1,0 +1,79 @@
+#%%
+
+import numpy as np
+from uncertainties import ufloat
+from uncertainties import unumpy as unp
+import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit
+
+events = np.array([
+    87723, 83300, 75803, 61588, 40254,
+    20812, 7638, 3229, 673, 538
+])
+
+rausch = 210
+events_err = np.sqrt(events + rausch)
+events = events - rausch
+
+Aludicke = np.array([0.03, 0.05, 0.1, 0.25, 0.5, 0.83, 1.23, 1.57, 2.29, 3.46]) #in mm
+Massenbelegung = np.array([6.84, 13.2, 28.2, 66.8, 135, 224, 332, 423, 617, 933]) #in mg/cm^2
+ 
+events = events / 60 
+events_err = events_err / 60
+
+events_unc = unp.uarray(events, events_err)
+
+
+def I_x(x, I_0, alpha):
+    return I_0 * np.exp(-alpha * x)
+
+
+def plot_errorfit(x, y, y_err, c='orange', p0 = (1, 1), axis = plt.gca()):
+    popt, pcov = curve_fit(I_x, x, y, sigma=y_err, absolute_sigma=True, p0 = p0)
+    x_fit = np.linspace(min(x), max(x), 300)
+    y_fit = I_x(x_fit, *popt)
+    I0, alpha = popt
+    sigma = np.sqrt(
+        np.exp(2*-alpha*x_fit)*pcov[0,0]
+        + (I0*x_fit*np.exp(-alpha*x_fit))**2 * pcov[1,1]
+        - 2*np.exp(-alpha*x_fit)*(I0*x_fit*np.exp(-alpha*x_fit))*pcov[0,1]
+    )
+    axis.plot(x_fit, y_fit)
+    axis.fill_between(x_fit, y_fit-3*sigma, y_fit+3*sigma, alpha=0.3, color=c, label=r'3$\sigma$  Unsicherheitsbereich')
+    axis.plot(x_fit, y_fit, label='Exponentielle Anpassung', color=c)
+    axis.set_title('Counts als Funktion der Aludicke')
+    residuen = (y - I_x(x, *popt))
+    print(f'Angepasste Parameter: I0 = {I0:.3f} nA +- {np.sqrt(pcov[0,0]):.3f}, alpha = {alpha:.3f} +- {np.sqrt(pcov[1,1]):.3f} 1/cm')
+    return residuen
+fig, ax = plt.subplots(2,1, sharex=True, gridspec_kw={'height_ratios': [3, 1]}, figsize=(8, 6.5))
+Gl = 0
+GU = 10
+ax[0].errorbar(Aludicke, unp.nominal_values(events_unc), yerr=unp.std_devs(events_unc), fmt='o', label='Daten mit Fehlern')
+residuen = plot_errorfit(Aludicke[Gl:GU], unp.nominal_values(events_unc[Gl:GU]), unp.std_devs(events_unc[Gl:GU]), c='orange', p0=(3, 0.5), axis=ax[0])
+chisq = np.sum((residuen / unp.std_devs(events_unc[Gl:GU]))**2)
+"""
+plateu_idx = [(1,2), (10, 11)]
+plateu_labels = ['Plateau 1', 'Plateau 2']
+plateau_unc_labels = [r'1 $\sigma$ Unsicherheitsbereich', '']
+plateu_c = ['limegreen', 'darkgreen']
+for idx in plateu_idx:
+    j = plateu_idx.index(idx)
+    höhe = np.average(unp.nominal_values([events_unc[i]for i in idx]), weights=1/unp.std_devs([events_unc[i]for i in idx])**2)
+    höhe_err = np.sqrt(1/np.sum(1/unp.std_devs([events_unc[i]for i in idx])**2))
+    ax[0].axhline(höhe, color=plateu_c[j], linestyle='--', label=plateu_labels[j])
+    ax[0].fill_between(Aludicke, höhe-höhe_err, höhe+höhe_err, alpha=0.3, color=plateu_c[j], label=plateau_unc_labels[j])
+    ax[1].errorbar(Aludicke[idx[0]:idx[-1]+1], unp.nominal_values([events_unc[i] for i in idx]) - höhe, yerr=unp.std_devs([events_unc[i] for i in idx]), fmt='o', color=plateu_c[j], label=f'Residuen {plateu_labels[j]}')
+"""
+ax[0].set_ylabel(r'Counts [Hz]')
+ax[0].legend() 
+ax[1].errorbar(Aludicke[Gl:GU], residuen, yerr=unp.std_devs(events_unc[Gl:GU])*4, fmt='o', color='red', linestyle='None', label=r'Residuen ($\chi^2$ = {:.2f})'.format(chisq))
+ax[1].set_xlabel('Aludicke [mm]')
+ax[1].legend()
+ax[1].set_ylabel(r'Residuen [Hz]')
+ax[1].axhline(0, color='black', linestyle='--')
+
+for a in ax:
+    a.grid()
+fig.tight_layout()
+plt.savefig('Bilder/Absorptionskoeffizient.svg', dpi=300)
+# %%

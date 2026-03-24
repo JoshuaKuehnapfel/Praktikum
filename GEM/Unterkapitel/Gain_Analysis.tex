@@ -1,24 +1,26 @@
 \section{Gain Analyse}
-Die Gleichung \ref{eq:defGain} lässt sich weiter Umschreiben zu einem Verhältnis der Ströme (Vgl. \cite{Anleitungsmappe}) indem man die Gleichung aufintegriert. Man erhält die folgende Gleichung:
-\begin{equation}
-        \centering
-        \boxed{
-        \text{Gain}=\frac{I_{RO}}{I_{Dr}} = \frac{I_{RO}}{N e R_{ion}}
-        }
-\end{equation}    
-\label{eq:Gain}\\
-Beim zweiten Gleichheitszeichen wurde ausgenutzt, dass der Strom von der Primärionisation $I_{Dr}$ zusammengesetzt ist aus der Rate der ionisierenden Teilchen $R_{ion}$, der Anzahl der im Mittel ionisierten Teilchen $N$ und der Elementarladung e. $I_{RO}$ wird mit einem picoammeter ausgelesen.
+Der Gain ist definiert als das Verhältnis der Elektronen die an den Auslesestreifen ankommen und die Elektronen die von dem ionisierenden Teilchen gelöst wurden. Die Gleichung lässt sich weiter Umschreiben zu einem Verhältnis der Ströme (Vgl. \cite{Anleitungsmappe}). Man erhält dann die folgende Gleichung \ref{eq:Gain}.
+\begin{figure}[h]
+    \begin{equation}
+            \centering
+            \boxed{
+            \text{Gain}=\frac{I_{RO}}{I_{Dr}} = \frac{I_{RO}}{N e R_{ion}}
+            }
+    \end{equation}
+    \caption{Formel zur Bestimmung des Gains. Beim zweiten Gleichheitszeichen wurde ausgenutzt, dass der Strom der von der Primärionisation $R_{Dr}$ zusammengesetzt ist aus der Rate der ionisierenden Teilche $R_{ion}$, die Anzahl der im Mittel ionisierten Teilchen $N$ und die elementar Ladung e zusammengesetzt ist. $I_{RO}$ wird mit einem picoammeter ausgelesen.}
+    \label{eq:Gain}
+    \end{figure}
 \subsection{Ratenbestimmung}
-Ein einzelnes Elektron kann nicht durch das Amperemeter vermessen werden. Das heißt bei niedrigen Spannungen (wenigen Sekundärionisationen) wird kein Signal gemessen. Wenn man die Spannung hochdreht, steigt die Rate der gemessenen Ereignisse, weil es immer wahrscheinlicher wird, dass ein Primärelektron genügend verstärkt wird, um messbar zu werden. Jedoch steigt die gemessene Rate nicht kontinuierlich mit der Spannung, denn ab einer bestimmten Spannung wird (nahezu) jedes Primärelektron genügend verstärkt und somit detektiert. Damit entspricht die Rate der ionisierenden Teilchen $R_{ion}$ genau der Rate der gemessenen Ereignisse am Plateau. Die gemessenen Raten in Abhängigkeit der Spannung und die am Plateau bestimmete Rate sind in Abb. \ref{fig:Rate} dargestellt.
+Ein einzelnes Elektron kann nicht durch das Amperemeter vermessen werden. Das heißt bei niedrigen Spannungen (wenigen Sekundärionisationen) wird kein Signal gemessen. Wenn man die Spannung hochdreht steigt die Rate der gemessenen Ereignisse, weil es immer wahrscheinlicher wird, dass ein Primärelektron genügen Verstärkt wird um messbar zu werden. Jedoch steigt die gemessene Rate nicht kontinuirlich mit der Spannung, denn ab einer bestimmten Spannung wird (nahezu) jedes Primärelektron genügend verstärkt und somit detektiert. Damit entspricht die Rate der ionisierenden Teilchen $R_{ion}$ genau der Rate der gemessenen Ereignisse am Plateau. Die gemessene Raten in Abhängigkeit der Spannung und die bestimme Rate sind in Abb. \ref{fig:Rate} dargestellt.
 
 \begin{figure}[h]
     \centering
     \includesvg[width=0.7\textwidth]{Bilder/Zählraten.svg}
-    \caption{Gemessene Zählraten mit bestimmter Rate der ionisierenden Teilchen. Dabei wurden die drei blauen Datenpunkte für die Bestimmung der Rate benutzt mittels gewichtetem Mittelwert. Auf alle Datenpunkte wurde ein Poissonfehler angenommen. Rauscheffekte wurden von den Daten abgezogen, aber der Fehler von der Rauschmessung wurde auf die Daten fortgepflanzt.}
+    \caption{Gemessene Zählraten mit bestimmter Rate der ionisierenden Teilchen. Dabei wurden die drei Blauen Datenpunkte für die bestimmung der Rate benutzt mittels gewichtetem Mittelwert. Auf alle Datenpunkte wurde eine Poissionfehler angenommen. Rauscheffekte wurden von den Daten abgezogen, aber der Fehler von der Rauschmessung wurde auf die Daten fortgepflanzt.}
     \label{fig:Rate}
 \end{figure}
 
-Im Schnitt werden $N=322\pm2.8$ Elektronen pro Photon der Röntgenquelle ($E_{\gamma}=\SI{8.34}{\keV}$) \cite{Anleitungsmappe} ionisiert. Damit lässt sich $I_{Dr}$ und somit der Gain als Funktion von $I_{RO}$ bestimmen (Vgl. Eq. \ref{eq:Gain}). Man erhält:
+Im Schnitt werden $N=322\pm2.8$ Elektronen von Photonen der Röntenquelle ($E_{\gamma}=\SI{8.34}{\keV}$) \cite{Anleitungsmappe} ionisiert. Damit lässt sich $I_{Dr}$ und somit der Gain als Funktion von $I_{RO}$ bestimmen (Vgl. Eq. \ref{eq:Gain}).
 
 \begin{equation}
     \boxed{
@@ -29,32 +31,32 @@ Im Schnitt werden $N=322\pm2.8$ Elektronen pro Photon der Röntgenquelle ($E_{\g
     \end{aligned}
     }
 \end{equation}
-Dieser Wert mit Unsicherheit wird für alle folgenden Rechnungen zur Bestimmung des Gains verwendet werden.
+Dieser Wert mit Unsicherheit wird für alle folgenden Rechnungnen zur Bestimmung des Gains verwendet werden.
 \newpage
 \subsection{Gain in Abhängigkeit von $V_{Drift}$}
 
-Um den Strom des Detektors zu vemessen, mussten wir den GEM-Connector an das Picoammeter anschließen. Ein Python Skript hat automatisch das Picoammeter zusammen mit dem Fehler ausgelesen. Die Messungen mit Exponentialfit bei einer Gasmischung von 70\% Ar und 30\% $\text{CO}_2$ sind in Abb. \ref{fig:7030Vdrift} dargestellt. Die restlichen Plots zu den anderen Gasmischungen sind im Appendix \ref{kap:Gainkurven-Gas} zu finden.\\
-In Abb. \ref{fig:7030Vdrift} ist deutlich die exponentielle Abhängigkeit zur angelegten Spannung zu erkennen. Dass der 
-Zusammenhang exponentiell ist, liegt daran, dass bei größeren Spannungen mehr Elektronen Sekundärelektronen ionisieren können, die wiederum bei genügend höherer Spannung weitere Elektronen ionisieren können.
+Um den Strom des Detektors zu vemessen, mussten wir den GEM-Connector an das picoamperemeter anschließen. Ein Python Skript hat automatisch das picoammeter ausgelesen mit Fehler. Die Messungen mit Exponentialfit bei einer Gasmischung von 70\% Ar und 30\% $\text{CO}_2$ sind in Abb. \ref{fig:7030Vdrift} dargestellt. Die restlichen Plots sind im Appendix \ref{kap:Gainkurven-Gas} zu finden.\\
+In Abb. \ref{fig:7030Vdrift} ist deutlich die exponentielle Abhängigkeit zur angelegten Spannung zu erkennen. Das der 
+Zusammenhang exponentiell ist liegt daran, dass bei größeren Spannungen mehr Elektronen Sekundärelektronen Ionisieren können, die wiederum bei genügend höherer Spannung weitere Elektronen ionisieren können. Aus diesem Grund liegt ein exponentieller Zusammenhang vor.
 
 
 \begin{table}[h]
 \centering
-\begin{tabular}{|l|c|c|c|c|}
+\begin{tabular}{|l||c|c|}
     \hline
-     & $a$ & $b\;(\si{\per\V})$ & $\frac{\chi^2}{\text{N}_{\text{dof}}} $ & $\frac{\chi^2-\bar\chi^2}{\sigma_{\chi^2}}$\\
+     & $a$ & $b$ \\
     \hline
-    $V_{\text{Drift, 60/40}}$ & $(6.28 \pm 6.55)\cdot10^{-7}$ & $(6.68 \pm 3.06)\cdot10^{-3}$ & $\frac{0.133}{5-2}=0.0443$&$\approx1.18$\\
-    $V_{\text{Drift, 70/30}}$ & $(1.44 \pm 7.76)\cdot10^{-7}$ & $(7.70 \pm 1.66)\cdot10^{-3}$ & $\frac{0.019}{7-2}=0.0038$&$\approx1.58$\\
-    $V_{\text{Drift, 80/20}}$ & $(3.36 \pm 1.34)\cdot10^{-8}$ & $(8.80 \pm 1.30)\cdot10^{-3}$ & $\frac{0.028}{7-2}=0.0056$&$\approx1.57$\\ \hline
+    $V_{\text{Drift, 60/40}}$ & $(6.28 \pm 6.55)\cdot10^{-7}$ & $(6.68 \pm 3.06)\cdot\SI{e-3}{\per\V}$ \\
+    $V_{\text{Drift, 70/30}}$ & $(1.44 \pm 7.76)\cdot10^{-7}$ & $(7.70 \pm 1.66)\cdot\SI{e-3}{\per\V}$ \\
+    $V_{\text{Drift, 80/20}}$ & $(3.36 \pm 1.34)\cdot10^{-8}$ & $(8.80 \pm 1.30)\cdot\SI{e-3}{\per\V}$ \\ \hline
 \end{tabular}
 \caption{Fitparameter des exponentiellen Fits $G(U)=a\,e^{bU}$ für den Gain in Abhängigkeit der Spannung für verschiedene Gasgemische.}
 \label{tab:gain_fit_parameter}
 \end{table}
 
-Anhand der Fitparameter in Tabelle \ref{tab:gain_fit_parameter} ist gut zu erkennen, dass eine höhere Argonkonzentration einen größeren exponentiellen Anstieg bedeutet. Allerdings ist die Aussagekraft aller Fits beschränkt. Zum einen sind die Unsicherheiten auf den Parametern enorm und zum anderen ist das $\chi^2$ pro Freiheitsgrad sehr klein. Insbesondere ist das $\chi^2$ in allen Fällen außerhalb eines 1-$\sigma$ Intervalls vom Erwartungswert der $\chi^2$-Verteilung. Mit der Tatsache, dass in den Residuenplots keine Trends erkennbar sind, lässt sich folgern, dass die Fehler auf die Datenpunkte überschätzt wurden.\\ Da die Proportionalitätsfaktoren $a$ in der selben Größenordnung sind (Vgl. \ref{tab:gain_fit_parameter}), bedeutet das auch, dass mit weniger Spannung der gleiche Gain erreichbar ist, wie mit Gasen mit kleinerem Argon-Anteil. Dieser Zusammenhang lässt sich auch in Abb. \ref{fig:Vdriftalle} beobachten.
-Also bedeutet ein höherer Argon-Anteil mehr Ionisationsprozesse, mehr Elektronen und ein stärkeres Signal. Allerdings steigt auch gleichermaßen der Ionen-Anteil. Ionen können einerseits wieder Elektronen einfangen, was den Gain verkleinert, und andererseits strahlen Ionen aufgrund von Rekombination Sekundärstrahlung ab, die das Signal verfälschen. So entstandene Photonen können den Detekor verlassen, was die Proportionalität zwischen gemessenem Strom und deponierter Energie zunichte macht. Außerdem strahlen die angeregten Ionen die Photonen zeitverzögert ab, insbesondere wenn sie sich in einem metastabilen Zustand befinden, was bei einer Stoßanregung nicht besonders unwahrscheinlich ist. Dadurch steigt das Rauschen im Detektor und ein Ereignis könnte mehrfach gezählt werden.\\
-Das lässt sich dadurch quantifizieren, dass die relativen Abweichungen vom Picoammeter deutlich steigen (Vgl. Tab. \ref{tab:rel_fehler_strom}). Das Picoammeter misst über ein definiertes Zeitintervall und berechnet aus den im Zeitintervall aufgenommenen Daten den Mittelwert und die Strichprobenvarianz. Ein starkes Rauschen und eine instabile Verstärkung macht sich dann durch einen höheren relativen Fehler bemerkbar. 
+Anhand der Fitparameter in Tabelle \ref{tab:gain_fit_parameter} ist gut zu erkennen, dass eine höhere Argon konzentration einen größeren Exponentiellen anstieg bedeutet. Da die Proportionalitätsfaktoren $a$ in der selben Größenordnung sind, bedeutet das auch, dass mit weniger Spannung der gleiche Gain erreichbar ist, wie mit Gasen mit kleinerem Argon Anteil. Dieser Zusammenhang lässt sich auch in Abb. \ref{fig:Vdriftalle} beobachten.
+Also bedeutet ein höherer Argon Anteil mehr Ionisationsprozesse, mehr Elektronen und ein stärkes Signal. Allerdings steigt auch gleichermaßen der Ionen Anteil. Ionen können einerseits wieder Elektronen Einfangen, was den Gain verkleinert, und andererseits strahlen Ionen aufgrund von Rekombination Sekundärstrahlung ab, die das Signal verfälschen. So entstandene Photonen den Detekor verlassen, was die proportionalität zwischen gemessenen Strom und deponierter Energie zunichte macht. Außerdem strahlen die angeregten Ionen die Photonen zeitverzögert ab, insbesondere wenn sie sich in einem metastabilen Zustand befinden, was bei einer Stoßanregung nicht besonders unwahrscheinlich ist. Dadurch steigt das Rauschen im Detektor und ein Ereignis könnte mehrfach gezählt werden.\\
+Das lässt sich dadurch quantifizieren, dass die relativen Abweichung vom Picoammeter deutlich steigen (Vgl. Tab. \ref{tab:rel_fehler_strom}). Der Picoammeter misst über ein definiertes Zeiteintervall und berechnet aus den im Zeitintervall aufgenommenen Daten den Mittelwert und die Strichprobenvarianz. Ein starkes Rauschen und eine instabile Verstärkung macht sich dann durch ein hohere relativer Fehler bemerkbar. 
 
 \begin{table}[h]
     \centering
@@ -67,11 +69,11 @@ Das lässt sich dadurch quantifizieren, dass die relativen Abweichungen vom Pico
         $V_{\text{Drift, 80/20}}$ & $(19.0 \pm 14.1)\%$ \\
         \hline
     \end{tabular}
-    \caption{Relative Fehler der Strommessung gemittelt über alle Datenpunkte bei verschiedenen Gasmischungen}
+    \caption{Relative Fehler bei der Strommessung}
     \label{tab:rel_fehler_strom}
 \end{table}
 
-In Abb. \ref{fig:7030Vdrift} ist die Abhängigkeit von der Spannung auf den relativen Fehlers des Stroms zu erkennen. Bei steigender Spannung, vergrößert sich der relative Fehler, da die Verstärkung unkontrolliert wird, wie schon weiter oben besprochen. Eine Erhöhung der Spannung scheint auf das Rauschen, also wenn die Quelle aus ist, keinen signifikanten Effekt zu haben. Die selben zwei Beobachtung sind auch bei den anderen Gasmischungen zu sehen (Vgl. Abb. \ref{fig:CO2_60_40},\ref{fig:CO2_80_20}). 
+
 
 
 \begin{figure}[H]
@@ -81,57 +83,52 @@ In Abb. \ref{fig:7030Vdrift} ist die Abhängigkeit von der Spannung auf den rela
     \label{fig:7030Vdrift}
 \end{figure}
 
+
+
+
 \begin{figure}[H]
     \centering
-    \includesvg[width=0.7\textwidth]{Bilder/Verstärkung_alle.svg}
-    \caption{Einfluss der Gasmischungen auf den Gain. Bei dem Plot wurden die unteren 3 Messpunkte von der 60/40-Mischung weggelassen, da es praktisch keine Verstärkung gab und ein exponentieller Fit mit diesen Daten auch deshalb nicht sinnvoll wäre. Der Fit an die Daten ist der gleich wie weiter oben. Die Parameter der Fits und die Güte der Anpassungen sind in Tabelle \ref{tab:gain_fit_parameter} aufgelistet.}
+    \includesvg[width=0.8\textwidth]{Bilder/Verstärkung_alle.svg}
+    \caption{Einfluss der Gasmischungen auf den Gain. Bei dem Plot wurden die unteren 3 Messpunkte von der 60/40-Mischung weggelassen, da es praktisch keine Verstärkung gab und ein exponentieller Fit mit diesen Daten auch deshalb nicht Sinvoll wäre.}
     \label{fig:Vdriftalle}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includesvg[width=0.8\textwidth]{Bilder/Vergleich_Gemisch.svg}
-    \caption{Einfluss der Gasmsichung auf den Gain. Die Datenpunkte bei 3250 V wurden aus den vorherigen Fits extrapoliert. }
-    \label{fig:Vergleich_Gemisch}   
-\end{figure}
-Der Zusammenhang zwischen Gain und Gasmischung ist wie in Abb. \ref{fig:Vergleich_Gemisch} nicht linear (man beachte die logarithmische Auftragung) sondern in guter Näherung exponentiell. Für Gasmischungen mit einem großen Argon-Anteil ist das ein Problem, denn das bedeutet, dass kleine Änderungen in der Konzentration erhebliche Effekte auf den Gain haben können. Besondere Relevanz hat diese Tatsache, da es in der Praxis schwierig ist Gaskonzentrationen genau zu messen und zu regulieren.\\
-Es ist Anzumerken, dass der Gain mit steigender Spannung nicht unbedingt weiter ansteigen muss. Es gibt eine Reihe von Effekten, die bei hohen Spannungen auftreten, die den Gain verkleinern. Zum Beispiel steigt bei großen Spannungen über GEM-Folien die Ionendichte in den Löchern was einerseits den Elektroneinfang begünstigt und andererseits das lokale elektrische Feld verzerrt, wodurch die Verstärkung sinkt. Bei höheren Argon-Anteilen tritt dieser Effekt früher auf.  
 
 \subsection{Gain in Abhängigkeit von $V_{G1Top}$}
-
-Das variieren der Spannung $V_{G1T}$ (Siehe Abb. \ref{fig:SkizzeGem}), die an der Oberseite des ersten GEM-Layers anliegt, hat einen signifikaten Effekt auf den Gain, wie die Abbildung \ref{fig:VerstärkungV1GT} zeigt. Das liegt daran, dass die Elektronenverstärkung vor allem zwischen den Löchern stattfindet. Dabei ist es günstig wenn das elektrische Feld groß ist, da so der Ionenabtransport begünstigt wird und die Elektronen schnell genug beschleunigt werden um weitere Elektronen zu ionisieren. Beide Effekte erhöhen den Gain.
-
+Die Abbildung \ref{fig:VerstärkungV1GT} zeigt, dass auch das erhöhen der Spannung der ersten GEM-Detektors den Gain erhöht. Insbesondere hat sich beim variieren der Spannung an $V_{G1Top}$ die Spannung über den ersten GEM-Layer verändert. Das hat einen signifkanten Effekt auf den Gain, da die Elektronenverstärkung vor allem zwischen den Löchern stattfindet. Dabei ist es günstig wenn das Elektrische Feld groß ist das den Ionenabtransport begünstigt und die Elektronen schnell genug beschleunigt werden um weitere Elektronen zu ionisieren.
 \begin{figure}[h]
     \centering
     \includesvg[width=0.6\textwidth]{Bilder/Verstärkung_G1T.svg}
-    \caption{Der Gain in Abhängigkeit von $V_{G1T}$ (Siehe Abb. \ref{fig:SkizzeGem}). $V_{Drift}$ ist fest auf \SI{3350}{\V} eingestellt.}
+    \caption{Der Gain in Abhängigkeit von $V_{G1Top}$ (Siehe Abb. \ref{fig:SkizzeGem}). $V_{Drift}$ ist fest auf \SI{3350}{\V} eingestellt.}
     \label{fig:VerstärkungV1GT}
 \end{figure}
-Allerdings scheint die Verstärkung nicht besonders stabil zu sein, da der relative Fehler auf den Strom groß ist (Vgl. Tab. \ref{tab:g1t_fit}).
-\begin{table}[H]
-    \centering
-        \begin{tabular}{|l|c|c|c|c|}
-        \hline
-         & {$a$} & {$b\;(\si{\per\volt})$} & $\frac{\chi^2}{\text{N}_{\text{dof}}} $ & $\frac{\chi^2-\bar\chi^2}{\sigma_{\chi^2}}$ \\
-        \hline
-        $V_{\text{G1T}}$ & $(3.6 \pm 4.62) \cdot 10^{2}$ & $(1.68 \pm 2.90) \cdot 10^{-2}$&$\frac{0.098}{7-2}=0.0196$ & $\approx 1.55$\\
-    \hline
-    \end{tabular}
+Allerdings scheint die Verstärkung nicht besonders stabil zu sein, da der Fehler auf den Strom groß ist (Vgl. Tab. \ref{tab:g1t_fit}).
+\begin{table}[h]
+\centering
+\sisetup{
+    separate-uncertainty = true,
+    output-exponent-marker = \cdot
+}
+\begin{tabular}{|l|c|c|}
+\hline
+Datensatz & {$a$} & {$b\;(\si{\per\volt})$} \\
+\hline
+$V_{\text{G1T}}$ & $(8.30 \pm 6.23) \cdot 10^{-15}$ & $(1.68 \pm 2.90) \cdot 10^{-2}$ \\
+\hline
+\end{tabular}
 
-    \vspace{0.5cm}
+\vspace{0.5em}
 
-    \begin{tabular}{|l|c|}
-    \hline
-        Messgröße & Relativer Fehler \\
-        \hline
-        Strommessung & $(24.20 \pm 17.10)\,\%$ \\
-        \hline
-    \end{tabular}
-    \caption{Fitparameter des exponentiellen Fits, sowie der mittlere relative Fehler der Strommessung.}
-    \label{tab:g1t_fit}
+\begin{tabular}{|l|c|}
+\hline
+Messgröße & Relativer Fehler \\
+\hline
+Strommessung & $(24.20 \pm 17.10)\,\%$ \\
+\hline
+\end{tabular}
+
+\caption{Fitparameter des exponentiellen Fits sowie relativer Fehler der Strommessung.}
+\label{tab:g1t_fit}
 \end{table}
-Wie bei den vorangegangen Fits ist das $\chi^2$ pro Freiheitsgrad recht weit weg vom Erwartungswert. Auch hier ist das ein Indiz, dass der Fehler auf die Messungen überschätzt wurde. Ein Trend ist im Residuenplot \ref{fig:VerstärkungV1GT} nicht erkennbar. \\
-In den vorherigen Versuchsteilen wurde $V_{Drift}$ verändert, während alle anderen Spannungen sich linear nach der Tabelle 3.1 in \cite{Anleitungsmappe} verändert haben. Bei der in diesem Versuchsteil angelegten Spannung von \SI{3350}{\V} entspricht das $\Delta V_{G1} = \SI{402}{\V}$ also deutlich unter den in diesem Versuchsteil angelegten Spannungen. Das könnte ein Grund sein, weshalb der Strom so große relative Fehler aufweist. Es ist gut möglich, dass bei diesen Spannugen zwischen dem ersten GEM-Layer keine gute Verstärkung möglich ist. Am Ende des letzten Kapitels wurde ein möglicher Effekt genannt, der bei hohen Feldstärken in den GEM-Folien auftritt und hier für diese großen Unsicherheiten verantwortlich sein könnte. 
-
 
 

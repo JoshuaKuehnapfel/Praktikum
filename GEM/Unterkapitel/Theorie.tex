@@ -1,24 +1,10 @@
 \section{Theorie}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.65\textwidth]{Bilder/GEM_Detekro.png}
-    \caption{Skizze eines Triple-Layer GEMs. Das Bild wurde aus der Versuchsanleitung übernommen \cite{Anleitungsmappe}}
+    \includegraphics[width=0.8\textwidth]{Bilder/GEM_Detekro.png}
+    \caption{Skizze eines Triple-Layer Gems. Das Bild wurde aus der Versuchsanleitung übernommen \cite{Anleitungsmappe}}
     \label{fig:SkizzeGem}
 \end{figure}
-Die Funktionsweise eines GEM (Gas-Electron-Multiplier)-Detektors besteht \\ darin, dass ein ionisierendes Teilchen in den Detektor, bzw. um präziser zu sein, in das Gasvolumen des Detektors eindringt und das Gas ionisiert.
-Dabei werden Elektron-Ionen Paare erzeugt, die aufgrund der angelegten Spannung $V_{Drift}$ (siehe Abb. \ref{fig:SkizzeGem}) räumlich getrennt werden und daher nur unterdrückt rekombinieren. Die Elektronen werden zum ersten GEM Layer beschleunigt und durch Löcher in der Kaptonfolie geleitet. Auf dem Weg können die Elektronen schon genug Energie erreichen um Gasatome zu ionisieren. Allderdings findet dieser Prozess nur unterdrückt statt. In den Löchern hingegen ist die elektrische Feldstärke um die \SI{70}{\keV\per\cm^2} groß, weshalb die Elektronen so stark beschleunigt werden, dass sie genug Energie besitzen um viele weitere Gasatome zu ionisieren. Die zurückbleibenden Ionen werden zu den Kathoden auf der Oberseite der GEM Folie beschleunigt und neutralisiert. In den anderen GEM-Layern wiederholt sich dieser Prozess. Es werden Verstärkungen bis zu $10^6-10^8$ erreicht (Raether-Limit) \cite{Raether-Limit}. \\
-Der Elektronenstrom induziert in den Auslesestreifen (Strips in der Abb. \ref{fig:SkizzeGem}) einen Strom (Schockley-Ramo Theorem, siehe \cite{Anleitungsmappe}), der von der Elektronik verstärkt und ausgelesen wird. \\
-Der Grad der Verstärkung ist definiert über die Anzahl der freien Elektronen an den Strips $N_\text{RO}$ geteilt durch die Anzahl der Primärelektronen $N_{\text{Dr}}$ (die Elektronen, die von dem ionisierenden Teilchen gelöst wurden) und wird Gain genannt. 
-
-
-\begin{equation}
-        \centering
-        \boxed{
-        \text{Gain}=\frac{N_{\text{RO}}}{N_{\text{Dr}}}
-        }
-\end{equation}
-\label{eq:defGain}
-
-
+Ein GEM (Gas-Electron-Multiplier) Detektor funktioniert in dem ein Ionisierendes Teilchen in den Detektor, bzw. um Präziser zu sein, in das Gasvolumen im Detektor eindringt und das Gas Ionisiert. Dabei werden Elektron-Ionen Paare erzeugt, die aufgrund der angelegten Spannung $V_{Drift}$ (siehe Abb. \ref{fig:SkizzeGem}) räumlich getrennt werden und nicht immer rekombinieren. Die Elektronen werden zum ersten GEM Layer beschleunigt und durch Löcher in der Kaptonfolie geleitet. In den Löchern ist die elektrische Feldstärker um die \SI{70}{\keV\per\cm^2} groß, weshalb die Elektronen auch so stark beschleunigt werden, dass sie genug Energie besitzen um weitere Gasatome zu Ionisieren. Die zurückbleibende Ionen werden zu den Kathoden, oben auf der GEM Folie beschleunigt und neutralisiert. Dieser Effekt wiederholt sich und es kommt zu einem Kaskadeneffekt. 
 
 
