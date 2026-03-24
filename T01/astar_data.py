@@ -1,7 +1,6 @@
 #%%
 
 import numpy as np
-from sympy import E
 from uncertainties import ufloat
 from scipy.optimize import curve_fit
 

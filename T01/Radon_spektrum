@@ -1,0 +1,57 @@
+#%%
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit
+
+def exponential_decay(x, A, lambda_):
+    return A * np.exp(-lambda_ * x)
+
+abstand = np.array([
+    9.05, 8.9, 8.7, 8.5, 8.3, 8.1, 7.9,
+    7.7, 7.5, 7.0, 6.5, 6.0, 5.0, 4.5
+])
+abstand = abstand[0]-abstand
+strom = np.array([
+    2.90, 2.68, 2.68, 2.40, 2.04, 1.68, 1.32,
+    1.02, 0.775, 0.435, 0.365, 0.360, 0.115, 0.0125
+])
+strom_err = np.array([
+    0.03, 0.03, 0.03, 0.05, 0.04, 0.20, 0.20,
+    0.15, 0.015, 0.015, 0.015, 0.015, 0.010, 0.0015
+])
+
+idx_fit = [3,4, 5, 6, 7, 8, 9]
+popt, pcov = curve_fit(exponential_decay, abstand[idx_fit], strom[idx_fit], sigma=strom_err[idx_fit], absolute_sigma=True)
+plt.plot(abstand[idx_fit], exponential_decay(abstand[idx_fit], *popt), label='Fit', color='red')
+weighted_mean_1 = np.average(strom[1:2], weights=1/strom_err[1:2]**2)
+weighted_mean_1_uns = np.sqrt(1 / np.sum(1/strom_err[1:2]**2))
+weighted_mean_2 = np.average(strom[11:12], weights=1/strom_err[11:12]**2)
+weighted_mean_2_uns = np.sqrt(1 / np.sum(1/strom_err[11:12]**2))
+
+plt.hlines(weighted_mean_1, min(abstand), max(abstand), colors='green', linestyles='dashed', label=f'Gewichteter Mittelwert 1: {weighted_mean_1:.2f} ± {weighted_mean_1_uns:.2f} cm')
+plt.hlines(weighted_mean_2, min(abstand), max(abstand), colors='red', linestyles='dashed', label=f'Gewichteter Mittelwert 2: {weighted_mean_2:.2f} ± {weighted_mean_2_uns:.2f} cm')
+
+plt.errorbar(abstand, strom, yerr=strom_err, fmt='o', color='blue', label='Messdaten')
+plt.xlabel('Abstand (cm)')
+plt.legend()
+print(f'Fit-Parameter: A = {popt[0]:.2f} ± {np.sqrt(pcov[0, 0]):.2f}, λ = {popt[1]:.4f} ± {np.sqrt(pcov[1, 1]):.4f}')
+
+
+
+N = 100000
+
+A_samples = np.random.normal(popt[0], np.sqrt(pcov[0, 0]), N)
+B_samples = np.random.normal(popt[1], np.sqrt(pcov[1, 1]), N)
+C_samples = np.random.normal(weighted_mean_2, weighted_mean_2_uns, N)
+
+x = (-1/B_samples) * np.log(C_samples/A_samples)
+x_mean = np.mean(x)
+x_std = np.std(x)
+plt.vlines(x_mean, ymin=0, ymax=max(strom), color='purple', label=f'Abstand bei Strom = {weighted_mean_1:.2f} cm', linestyle='dashdot')
+plt.fill_betweenx([0, max(strom)], x_mean - x_std, x_mean + x_std, color='purple', alpha=0.3, label=f'Unsicherheit: {x_mean - x_std:.2f} cm - {x_mean + x_std:.2f} cm')
+
+
+print(x_mean, x_std)
+
+
+# %%
