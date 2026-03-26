@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview139"
      pagecolor="#ffffff"
@@ -22,7 +25,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.1170536"
-     inkscape:cx="4512.8758"
+     inkscape:cx="281.99569"
      inkscape:cy="192.4845"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -612,10 +615,10 @@ CreationDate: Fri Mar 13 11:23:03 2026</desc>
      id="text71">1.4</text>
   <text
      xml:space="preserve"
-     x="177.258"
-     y="371.436"
-     fill="black"
-     font-size="12.8453"
+     x="114.90719"
+     y="372.38071"
+     fill="#000000"
+     font-size="12.8453px"
      font-family="Helvetica"
      id="text72"> Teilchenenergie normiert auf die halbe Schwerpunktsenergie</text>
   <path
@@ -982,10 +985,10 @@ CreationDate: Fri Mar 13 11:23:03 2026</desc>
      id="g135">
     <text
        xml:space="preserve"
-       x="17.6056"
-       y="140.103"
-       fill="black"
-       font-size="12.8453"
+       x="-65.528809"
+       y="142.46477"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text135">Wahrscheinlichkeit</text>
   </g>
@@ -1009,12 +1012,14 @@ CreationDate: Fri Mar 13 11:23:03 2026</desc>
      id="path137" />
   <text
      xml:space="preserve"
-     x="104.763"
-     y="16.2911"
-     fill="black"
-     font-size="11.026"
+     x="102.44906"
+     y="18.501406"
+     fill="#000000"
+     font-size="13.8665px"
      font-family="Helvetica"
-     id="text137"> Histogramm der Einteilchenenergien der Teilchen mit Myonenmasse mit cut</text>
+     id="text137"
+     transform="scale(0.83355046,1.1996874)"
+     style="stroke-width:1.25762"> Histogramm der Einteilchenenergien der Teilchen mit Myonenmasse mit cut</text>
   <text
      xml:space="preserve"
      x="189.3791"
@@ -1033,4 +1038,15 @@ CreationDate: Fri Mar 13 11:23:03 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text241">Monte Carlo</text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

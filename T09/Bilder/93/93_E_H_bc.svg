@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview119"
      pagecolor="#ffffff"
@@ -22,8 +25,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.1170536"
-     inkscape:cx="3751.9125"
-     inkscape:cy="-217.99165"
+     inkscape:cx="295.69398"
+     inkscape:cy="197.6804"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -47,6 +50,16 @@ CreationDate: Thu Mar 12 16:41:56 2026</desc>
      height="384.469"
      fill="#fefefe"
      id="rect1" />
+  <text
+     xml:space="preserve"
+     style="text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
+     x="103.5815"
+     y="373.48227"
+     id="text2"><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="103.5815"
+       y="373.48227"> Auf die Schwerpunktsenergie normierte Ereignisenergie</tspan></text>
   <rect
      x="57.1929"
      y="38.4469"
@@ -709,14 +722,6 @@ CreationDate: Thu Mar 12 16:41:56 2026</desc>
      font-size="12.8453"
      font-family="Helvetica"
      id="text85">2</text>
-  <text
-     xml:space="preserve"
-     x="368.678"
-     y="371.436"
-     fill="black"
-     font-size="12.8453"
-     font-family="Helvetica"
-     id="text86"> normierte Gesamtenergie</text>
   <path
      d="M57.1929,346.022v -307.575"
      fill="none"
@@ -891,14 +896,14 @@ CreationDate: Thu Mar 12 16:41:56 2026</desc>
      font-family="Helvetica"
      id="text115">0.1</text>
   <g
-     transform="rotate(-90,17.6056,143.361)"
+     transform="rotate(-90,54.685436,177.13435)"
      id="g116">
     <text
        xml:space="preserve"
        x="17.6056"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       y="143.36099"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text116"> Wahrscheinlichkeit</text>
   </g>
@@ -934,4 +939,15 @@ CreationDate: Thu Mar 12 16:41:56 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text241">Monte Carlo</text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview136"
      pagecolor="#ffffff"
@@ -47,6 +50,16 @@ CreationDate: Thu Mar 12 16:09:07 2026</desc>
      height="384.469"
      fill="#fefefe"
      id="rect1" />
+  <text
+     xml:space="preserve"
+     style="text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
+     x="104.75"
+     y="372.92578"
+     id="text2"><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="104.75"
+       y="372.92578"> Auf die Schwerpunktsenergie normierte Ereignisenergie</tspan></text>
   <rect
      x="57.1929"
      y="38.4469"
@@ -736,14 +749,6 @@ CreationDate: Thu Mar 12 16:09:07 2026</desc>
      font-size="12.8453"
      font-family="Helvetica"
      id="text89">1.8</text>
-  <text
-     xml:space="preserve"
-     x="368.678"
-     y="371.436"
-     fill="black"
-     font-size="12.8453"
-     font-family="Helvetica"
-     id="text90"> normierte Gesamtenergie</text>
   <path
      d="M57.1929,346.022v -307.575"
      fill="none"
@@ -992,14 +997,14 @@ CreationDate: Thu Mar 12 16:09:07 2026</desc>
      font-family="Helvetica"
      id="text132">0.16</text>
   <g
-     transform="rotate(-90,17.6056,143.361)"
+     transform="rotate(-90,58.2306,180.236)"
      id="g133">
     <text
        xml:space="preserve"
        x="17.6056"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       y="143.36099"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text133"> Wahrscheinlichkeit</text>
   </g>
@@ -1035,4 +1040,15 @@ CreationDate: Thu Mar 12 16:09:07 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text136">Monte Carlo</text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

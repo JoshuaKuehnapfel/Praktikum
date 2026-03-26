@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview157"
      pagecolor="#ffffff"
@@ -825,14 +828,6 @@ CreationDate: Thu Mar 12 16:00:50 2026</desc>
      font-size="12.8453"
      font-family="Helvetica"
      id="text105">2</text>
-  <text
-     xml:space="preserve"
-     x="368.678"
-     y="371.436"
-     fill="black"
-     font-size="12.8453"
-     font-family="Helvetica"
-     id="text106"> normierte Gesamtenergie</text>
   <path
      d="M57.1929,346.022v -307.575"
      fill="none"
@@ -1103,14 +1098,14 @@ CreationDate: Thu Mar 12 16:00:50 2026</desc>
      font-family="Helvetica"
      id="text153">0.35</text>
   <g
-     transform="rotate(-90,17.6056,143.361)"
+     transform="rotate(-90,61.9806,186.486)"
      id="g154">
     <text
        xml:space="preserve"
        x="17.6056"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       y="143.36099"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text154"> Wahrscheinlichkeit</text>
   </g>
@@ -1146,4 +1141,25 @@ CreationDate: Thu Mar 12 16:00:50 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text157">Monte Carlo</text>
+  <text
+     xml:space="preserve"
+     style="text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
+     x="117.5"
+     y="372.67578"
+     id="text2"><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="117.5"
+       y="372.67578"> Auf die Schwerpunktsenergie normierte Ereignisenergie</tspan></text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

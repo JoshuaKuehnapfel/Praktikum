@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview191"
      pagecolor="#ffffff"
@@ -22,8 +25,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.1170536"
-     inkscape:cx="83.606763"
-     inkscape:cy="-260.97591"
+     inkscape:cx="271.60389"
+     inkscape:cy="192.01214"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -1256,10 +1259,10 @@ CreationDate: Thu Mar 12 18:16:53 2026</desc>
      id="text157">90</text>
   <text
      xml:space="preserve"
-     x="356.46"
-     y="370.622"
-     fill="black"
-     font-size="12.8453"
+     x="187.82941"
+     y="374.40085"
+     fill="#000000"
+     font-size="12.8453px"
      font-family="Helvetica"
      id="text158"> Teilchenanzahl pro Ereignis</text>
   <path
@@ -1436,14 +1439,14 @@ CreationDate: Thu Mar 12 18:16:53 2026</desc>
      font-family="Helvetica"
      id="text187">0.1</text>
   <g
-     transform="rotate(-90,17.6056,143.361)"
+     transform="rotate(-90,68.147542,189.1794)"
      id="g188">
     <text
        xml:space="preserve"
        x="17.6056"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       y="143.36099"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text188"> Wahrscheinlichkeit</text>
   </g>
@@ -1455,12 +1458,14 @@ CreationDate: Thu Mar 12 18:16:53 2026</desc>
      id="path188" />
   <text
      xml:space="preserve"
-     x="100.69"
-     y="16.2911"
-     fill="black"
-     font-size="10.7882"
+     x="99.329224"
+     y="21.538919"
+     fill="#000000"
+     font-size="14.4321px"
      font-family="Helvetica"
-     id="text189"> Histogramm der Wahrscheinlichkeit der Teilchenanzahl pro Ereignis (91 GeV)</text>
+     id="text189"
+     transform="scale(0.80921555,1.2357647)"
+     style="stroke-width:1.33777"> Histogramm der Wahrscheinlichkeit der Teilchenanzahl pro Ereignis (91 GeV)</text>
   <text
      xml:space="preserve"
      x="398.37912"
@@ -1479,4 +1484,15 @@ CreationDate: Thu Mar 12 18:16:53 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text241">Monte Carlo</text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

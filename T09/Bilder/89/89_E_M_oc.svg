@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview197"
      pagecolor="#ffffff"
@@ -29,7 +32,7 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg197" />
+     inkscape:current-layer="g193" />
   <title
      id="title1">
 Output/plot.svg
@@ -1179,10 +1182,10 @@ CreationDate: Fri Mar 13 11:42:56 2026</desc>
      id="text133">1.4</text>
   <text
      xml:space="preserve"
-     x="177.258"
-     y="371.436"
-     fill="black"
-     font-size="12.8453"
+     x="131.008"
+     y="373.936"
+     fill="#000000"
+     font-size="12.8453px"
      font-family="Helvetica"
      id="text134"> Teilchenenergie normiert auf die halbe Schwerpunktsenergie</text>
   <path
@@ -1520,10 +1523,10 @@ CreationDate: Fri Mar 13 11:42:56 2026</desc>
      id="g193">
     <text
        xml:space="preserve"
-       x="17.6056"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       x="-68.644402"
+       y="145.86099"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text193"> Wahrscheinlichkeit</text>
   </g>
@@ -1571,4 +1574,15 @@ CreationDate: Fri Mar 13 11:42:56 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text157">Monte Carlo</text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

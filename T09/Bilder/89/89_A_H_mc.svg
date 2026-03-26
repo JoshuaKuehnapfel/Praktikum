@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview239"
      pagecolor="#ffffff"
@@ -22,8 +25,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.496983"
-     inkscape:cx="171.67864"
-     inkscape:cy="177.35673"
+     inkscape:cx="172.34665"
+     inkscape:cy="177.35672"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -1515,10 +1518,10 @@ CreationDate: Thu Mar 12 15:48:19 2026</desc>
      id="text177">100</text>
   <text
      xml:space="preserve"
-     x="352.387"
-     y="370.622"
-     fill="black"
-     font-size="12.8453"
+     x="214.10887"
+     y="373.29404"
+     fill="#000000"
+     font-size="12.8453px"
      font-family="Helvetica"
      id="text178"> Teilchenanzahl pro Ereignis </text>
   <path
@@ -1851,10 +1854,10 @@ CreationDate: Thu Mar 12 15:48:19 2026</desc>
      id="g236">
     <text
        xml:space="preserve"
-       x="11.0892"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       x="-71.744072"
+       y="148.03706"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text236"> Wahrscheinlichkeit</text>
   </g>
@@ -1866,12 +1869,14 @@ CreationDate: Thu Mar 12 15:48:19 2026</desc>
      id="path236" />
   <text
      xml:space="preserve"
-     x="99.061"
-     y="16.2911"
-     fill="black"
-     font-size="9.91416"
+     x="100.90478"
+     y="19.275444"
+     fill="#000000"
+     font-size="14.3761px"
      font-family="Helvetica"
-     id="text237"> Histogramm der Wahrscheinlichkeit der Teilchenanzahl pro Ereignis mit cut (89 GeV)</text>
+     id="text237"
+     transform="scale(0.75002033,1.3332972)"
+     style="stroke-width:1.45006"> Histogramm der Wahrscheinlichkeit der Teilchenanzahl pro Ereignis mit cut (89 GeV)</text>
   <text
      xml:space="preserve"
      x="370.27795"
@@ -1890,4 +1895,15 @@ CreationDate: Thu Mar 12 15:48:19 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text239">Monte Carlo</text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

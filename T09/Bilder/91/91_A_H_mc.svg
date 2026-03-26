@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview241"
      pagecolor="#ffffff"
@@ -1563,10 +1566,10 @@ CreationDate: Thu Mar 12 18:18:43 2026</desc>
      id="text182">90</text>
   <text
      xml:space="preserve"
-     x="356.46"
-     y="370.622"
-     fill="black"
-     font-size="12.8453"
+     x="208.61301"
+     y="376.29025"
+     fill="#000000"
+     font-size="12.8453px"
      font-family="Helvetica"
      id="text183"> Teilchenanzahl pro Ereignis</text>
   <path
@@ -1881,10 +1884,10 @@ CreationDate: Thu Mar 12 18:18:43 2026</desc>
      id="g238">
     <text
        xml:space="preserve"
-       x="11.0892"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       x="-58.819279"
+       y="146.19511"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text238"> Wahrscheinlichkeit</text>
   </g>
@@ -1896,10 +1899,23 @@ CreationDate: Thu Mar 12 18:18:43 2026</desc>
      id="path238" />
   <text
      xml:space="preserve"
-     x="99.061"
-     y="16.2911"
-     fill="black"
-     font-size="9.91416"
+     x="108.33669"
+     y="18.460321"
+     fill="#000000"
+     font-size="12.3642px"
      font-family="Helvetica"
-     id="text239"> Histogramm der Wahrscheinlichkeit der Teilchenanzahl pro Ereignis mit cut (91 GeV)</text>
+     id="text239"
+     transform="scale(0.82717961,1.2089273)"
+     style="stroke-width:1.24712"> Histogramm der Wahrscheinlichkeit der Teilchenanzahl pro Ereignis mit cut (91 GeV)</text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

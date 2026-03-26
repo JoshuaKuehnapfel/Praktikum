@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview143"
      pagecolor="#ffffff"
@@ -22,7 +25,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.1170536"
-     inkscape:cx="2721.7072"
+     inkscape:cx="328.28644"
      inkscape:cy="192.4845"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -818,10 +821,10 @@ CreationDate: Thu Mar 12 18:14:28 2026</desc>
      id="text104">2</text>
   <text
      xml:space="preserve"
-     x="368.678"
-     y="371.436"
-     fill="black"
-     font-size="12.8453"
+     x="214.69041"
+     y="373.79779"
+     fill="#000000"
+     font-size="12.8453px"
      font-family="Helvetica"
      id="text105"> normierte Gesamtenergie</text>
   <path
@@ -1023,14 +1026,14 @@ CreationDate: Thu Mar 12 18:14:28 2026</desc>
      font-family="Helvetica"
      id="text139">0.25</text>
   <g
-     transform="rotate(-90,17.6056,143.361)"
+     transform="rotate(-90,62.006932,181.62172)"
      id="g140">
     <text
        xml:space="preserve"
        x="17.6056"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       y="143.36099"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text140"> Wahrscheinlichkeit</text>
   </g>
@@ -1066,4 +1069,15 @@ CreationDate: Thu Mar 12 18:14:28 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text241">Monte Carlo</text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

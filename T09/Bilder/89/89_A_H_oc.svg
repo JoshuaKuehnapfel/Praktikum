@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview195"
      pagecolor="#ffffff"
@@ -1195,10 +1198,10 @@ CreationDate: Thu Mar 12 15:46:34 2026</desc>
      id="text150">100</text>
   <text
      xml:space="preserve"
-     x="352.387"
-     y="370.622"
-     fill="black"
-     font-size="12.8453"
+     x="209.7359"
+     y="377.23499"
+     fill="#000000"
+     font-size="12.8453px"
      font-family="Helvetica"
      id="text151"> Teilchenanzahl pro Ereignis </text>
   <path
@@ -1436,14 +1439,14 @@ CreationDate: Thu Mar 12 15:46:34 2026</desc>
      font-family="Helvetica"
      id="text191">0.14</text>
   <g
-     transform="rotate(-90,17.6056,143.361)"
+     transform="rotate(-90,62.479287,185.40056)"
      id="g192">
     <text
        xml:space="preserve"
        x="17.6056"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       y="143.36099"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text192"> Wahrscheinlichkeit</text>
   </g>
@@ -1455,12 +1458,14 @@ CreationDate: Thu Mar 12 15:46:34 2026</desc>
      id="path192" />
   <text
      xml:space="preserve"
-     x="100.69"
-     y="16.2911"
-     fill="black"
-     font-size="10.7882"
+     x="110.30717"
+     y="17.265257"
+     fill="#000000"
+     font-size="14.9728px"
      font-family="Helvetica"
-     id="text193"> Histogramm der Wahrscheinlichkeit der Teilchenanzahl pro Ereignis (89 GeV)</text>
+     id="text193"
+     transform="scale(0.7543742,1.3256021)"
+     style="stroke-width:1.38789"> Histogramm der Wahrscheinlichkeit der Teilchenanzahl pro Ereignis (89 GeV)</text>
   <text
      xml:space="preserve"
      x="283.60968"
@@ -1479,4 +1484,15 @@ CreationDate: Thu Mar 12 15:46:34 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text195">Monte Carlo</text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

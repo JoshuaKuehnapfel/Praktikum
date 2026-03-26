@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview113"
      pagecolor="#ffffff"
@@ -21,9 +24,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.1170536"
-     inkscape:cx="159986.5"
-     inkscape:cy="260.0312"
+     inkscape:zoom="1.496983"
+     inkscape:cx="279.2283"
+     inkscape:cy="179.36076"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -721,14 +724,14 @@ CreationDate: Fri Mar 13 12:11:46 2026</desc>
      font-family="Helvetica"
      id="text108">0.8</text>
   <g
-     transform="rotate(-90,24.122,143.361)"
+     transform="rotate(-90,71.216725,189.78771)"
      id="g109">
     <text
        xml:space="preserve"
        x="24.122"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       y="143.36099"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text109"> Wahrscheinlichkeit</text>
   </g>
@@ -752,10 +755,10 @@ CreationDate: Fri Mar 13 12:11:46 2026</desc>
      id="path111" />
   <text
      xml:space="preserve"
-     x="99.061"
-     y="17.9202"
-     fill="black"
-     font-size="14.6619"
+     x="94.384926"
+     y="23.932293"
+     fill="#000000"
+     font-size="14.6619px"
      font-family="Helvetica"
      id="text111">Histogramm der Winkelverteilungen der Events (93 GeV)</text>
   <text
@@ -776,4 +779,15 @@ CreationDate: Fri Mar 13 12:11:46 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text241">Monte Carlo</text>
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

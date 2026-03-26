@@ -11,7 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview93"
      pagecolor="#ffffff"
@@ -614,14 +617,14 @@ CreationDate: Fri Mar 13 11:55:33 2026</desc>
      font-family="Helvetica"
      id="text89">1</text>
   <g
-     transform="rotate(-90,24.122,143.361)"
+     transform="rotate(-90,62.247,183.986)"
      id="g90">
     <text
        xml:space="preserve"
        x="24.122"
-       y="143.361"
-       fill="black"
-       font-size="12.8453"
+       y="143.36099"
+       fill="#000000"
+       font-size="12.8453px"
        font-family="Helvetica"
        id="text90"> Wahrscheinlichkeit</text>
   </g>
@@ -648,4 +651,15 @@ CreationDate: Fri Mar 13 11:55:33 2026</desc>
      font-family="Helvetica"
      font-weight="bold"
      id="text92">L3</text>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>
+Output/plot.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
