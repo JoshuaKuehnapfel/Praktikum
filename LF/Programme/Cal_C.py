@@ -67,7 +67,7 @@ plt.grid()
 plt.legend()
 plt.show()
 T_niedrig = c / (np.log((data_C_H - a)/b))
-
+print(a, b, c)
 
 #print("Vergleich Literatur Kohlewiderstand: T bei R=100Ω = ", (-1/c)*np.log((100 - a)/b), "K", "\n Literatur = ")
 
