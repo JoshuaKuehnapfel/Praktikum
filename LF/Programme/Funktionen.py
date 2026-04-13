@@ -7,7 +7,7 @@ import os
 from scipy.optimize import brentq
 import uncertainties as unc
 import uncertainties.unumpy as unp
-os.chdir('G:/Uni/Praktikum/LF/Programme')
+#os.chdir('G:/Uni/Praktikum/LF/Programme')
 
 
 Rausch = np.loadtxt('Rauschmessung', dtype=str)
@@ -31,10 +31,10 @@ data_H_s = np.zeros((len(data_H)//3, data_H.shape[1]))
 
 for i in range(len(data_N)//3):
     data_N_m[i,:] = data_N[3*i+1,:]
-    data_N_s[i,:] = 1/3*np.abs([data_N[3*i,:]+ data_N[3*i+2,:]-2*data_N[3*i+1,:]])
+    data_N_s[i,:] = 1/2*np.abs([data_N[3*i,:]+ data_N[3*i+2,:]-2*data_N[3*i+1,:]])
 for i in range(len(data_H)//3):   
     data_H_m[i,:] = data_H[3*i+1,:]
-    data_H_s[i,:] = 1/3*np.abs([data_H[3*i,:]+ data_H[3*i+2,:]-2*data_H[3*i+1,:]])
+    data_H_s[i,:] = 1/2*np.abs([data_H[3*i,:]+ data_H[3*i+2,:]-2*data_H[3*i+1,:]])
 
 
 data_R = np.array([data_H_m[-1, 1], data_N_m[-1, 1], data_N_m[0, 1]])
@@ -160,3 +160,4 @@ plt.legend()
 print(sigma_C/data_H_m[-1,1], sigma_Pt/data_H_m[-1,0])
 plt.title('Relative uncertainties of the temperature values \n obtained from the Pt and C resistance measurements')
 plt.savefig('relative_uncertainties.svg', dpi=300)
+# %%

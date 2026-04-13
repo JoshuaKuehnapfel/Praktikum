@@ -44,11 +44,10 @@ N_MC_H = np.array([
 
 
 N_data_mu = np.array([
-    [98, 106, 99, 107],
+    [98-1, 106, 99, 107], #-1 wegen Fehlmessung
     [26, 31, 29, 35],
     [30, 39, 39, 48]
 ])
-
 N_mu = 9969
 
 N_MC_mu = np.array([
@@ -113,9 +112,10 @@ Gamma_Z = ufloat(2.4952, 0.0023)  # GeV
 sigma_0 = 12 * np.pi * (Gamma_e * Gamma_myons) / (mZ**2 * Gamma_Z**2)*(389379)  # nb
 print(sigma_0)
 print('----'*20)
+#mZ = ufloat(91.17, 0.01)
 mZ = ufloat(91.17, 0.01)
 Gamma_Z= ufloat(2.535, 0.047)
-sigma_0 = ufloat(1.593, 0.145)
+sigma_0 = ufloat(1.574, 0.145)
 Gamma_e = unp.sqrt(sigma_0/(389379) * mZ**2 * Gamma_Z**2 / (12 * np.pi))
 print(f"Gamma_e1: {Gamma_e*1000:.3f} MeV")
 print('----'*20)
@@ -128,5 +128,21 @@ print(C, (B/2)**2)
 Gamma_e = B/2-unp.sqrt((B/2)**2 - C)
 print(f"Gamma_e2: {Gamma_e*1000:.3f} MeV")
 print('----'*20)
-sin_t_w = Gamma_e*24*np.sqrt(2)*np.pi/(G_F*mZ**3)
+A = Gamma_e*24*np.sqrt(2)*np.pi/(G_F*mZ**3)
+sin_t_w = 1/4*(1+unp.sqrt(A+A.s-1))
+#print(f"sin^2(theta_W): {sin_t_w:.3f}")
+sin_t_w = 1/4*(1-unp.sqrt(A+A.s-1))
+
+print(f"sin^2(theta_W): {sin_t_w:.3f}")
+sin_t_w2 = 1/4*(1-unp.sqrt(A+2*A.s-1))
+print(f"unterer Fehler: {sin_t_w2-sin_t_w:.3f}")
+
+sin_t_w = ufloat(0.232, 0.025)
+gamma_d = G_F*mZ**3 / (24*np.sqrt(2) * np.pi) * (1+(1-4*1/3*sin_t_w)**2)
+gamma_u = G_F*mZ**3 / (24*np.sqrt(2) * np.pi) * (1+(1-4*2/3*sin_t_w)**2)
+
+gamma_had = 1.04*(2*gamma_u + 3*gamma_d)*1000
+print(f"Gamma_had: {gamma_had:.3f} GeV")
+gamma_lit = ufloat1744 = ufloat(1744.4, 2.0)
+print(f"Gamma_had / Gamma_lit: {gamma_lit/gamma_had:.3f}")
 # %%
